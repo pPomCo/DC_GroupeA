@@ -1,22 +1,18 @@
-# Projet DC_GroupeA
-*Projet master DC inter-promo*
+# Projet DC Groupe A
+*Projet master DC inter-promo -- tache 2.3*
 
-
+ - Jérémie HUTEAU
+ - Quentin MARTY**
+ - Pierre POMERET-COQUOT
 
 ## Version actuelle
 
 La dernière version stable est **N/A**  
 La version en cours est **Itération 1** (sur la [branche iter1](#))  
 
+## Livrables TD
 
-## Membres
-
-Membres du Groupe A :
-
- - Jérémie **HUTEAU**
- - Quentin **MARTY**
- - Pierre **POMERET-COQUOT**
-
+...
 
 
 
@@ -48,9 +44,10 @@ Quelques rappels rapides :
 	# Actualiser le dépôt distant avec le contenu du dossier local
 	git push
 
+On travaille sur la branche iterN, qui sera fusionnée avec master en fin d'itération.  
 Normalement tout se passe bien.
 
-Si vous voulez commencer à utiliser *--amend*, *reset head* ou encore *-f*, vous êtes priés de le faire
+Si vous voulez utiliser *merge*, *--amend*, *reset head* ou encore *-f*, merci de le faire
 sur une sous-branche dont vous êtes responsable.  
 Sinon, demandez au responsable de la branche :-)
 
