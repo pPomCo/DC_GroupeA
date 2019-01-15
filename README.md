@@ -12,7 +12,15 @@ La version en cours est **Itération 1** (sur la [branche iter1](#))
 
 ## Livrables TD
 
-...
+ - [PMP initial](management/PMP.md)
+ - [Itération 1](management/iterations/iteration_1.md)
+
+
+
+## Liens annexes
+
+ - [Drive](https://drive.google.com/drive/folders/1fA0EA_270pQEeYymY6j-n2p_zJQ6i1UI?usp=sharing)
+ - [Tableau Trello](https://trello.com/b/HIFU6ivc/ue-projet)
 
 
 
