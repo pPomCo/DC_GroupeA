@@ -2,7 +2,7 @@
 *Projet master DC inter-promo -- tache 2.3*
 
  - Jérémie HUTEAU
- - Quentin MARTY**
+ - Quentin MARTY
  - Pierre POMERET-COQUOT
 
 ## Version actuelle
@@ -12,8 +12,9 @@ La version en cours est **Itération 1** (sur la [branche iter1](#))
 
 ## Livrables TD
 
- - [PMP initial](management/PMP.md)
- - [Itération 1](management/iterations/iteration_1.md)
+ - [PMP initial](management/PMP.md) -- en cours d'élaboration
+ - Revues d'itérations :
+   - Itération 1
 
 
 
@@ -21,6 +22,7 @@ La version en cours est **Itération 1** (sur la [branche iter1](#))
 
  - [Drive](https://drive.google.com/drive/folders/1fA0EA_270pQEeYymY6j-n2p_zJQ6i1UI?usp=sharing)
  - [Tableau Trello](https://trello.com/b/HIFU6ivc/ue-projet)
+ - [Slack](https://projetinterpr-pok6126.slack.com/)
 
 
 
