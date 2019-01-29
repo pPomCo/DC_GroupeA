@@ -11,7 +11,7 @@ fichier google docs : https://docs.google.com/document/d/13WGvIXMozl2X4bofrFhqU-
 ### 1.1) Identifications des risques / opportunités
 __Risques d’origine interne :__
 * Baisse de motivation notable d’un membre du groupe (11)
-* Echec de la réalisation de certains objectifs d’itération (12)
+* Echec ou retard dans la réalisation de certains objectifs d’itération (12)
 
 __Risques d’origine externe :__
 * Le MOA ne s’implique plus, perd de l'intérêt pour le projet (21)
