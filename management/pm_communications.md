@@ -1,36 +1,41 @@
 # Plan de Management des Communications
 
+## Protocoles de communication
+
+### Gestion des communications (exécution)/ Maîtrise des communications (maîtrise)
+Les communications en internes doivent respecter les formats définis ci-après, mais peuvent être initiées sans l'accord du reste de l'équipe, contrairement aux communications externes.
+
+Les réponses aux communications seront communiquées au groupe.
+
 ## Exigences des Parties Prenantes et modalités
 
   - MOE : clarté, réactivité (trello, mail, irl)
     - https://trello.com/b/HIFU6ivc/ue-projet
   - SJQ : accès aux documents de management (drive/git)
     - https://github.com/pPomCo/DC_GroupeA/tree/iter1/management
-  - MOA : RAS ??? (mail)
+  - MOA : RAS
     - thomas.pellegrini@irit.fr
   - Enseignants référents
-    - F. Benamara : remplissage de la fiche hebdromadaire de suivi (drive)
+    - F. Benamara : remplissage de la fiche hebdomadaire de suivi (drive)
       - https://docs.google.com/spreadsheets/d/1mXNldjerYVPGoSLtxrQip4bKbGANgVVFuxrIqGd6NQg/edit#gid=327046861
   - Groupes M1-M2
     - M. Poquillon & Co : transmission de l'interface à la BD voulue (drive)
       - https://docs.google.com/spreadsheets/d/1mkJSNJf7G1MV1WiDxpdc_UkcILWSN6-FTRYMVg6mxeo/edit#gid=0
   - Communauté scientifique : mesures des résultats, non-ambiguïté
 
-## Protocole de communication
-Les réponses aux communications seront communiquées au groupe.
-
-  - SJQ : demande de conseil possible et souhaitable
-  - MOA :
-Que mettre ici ?
+**J'ai l'impression que certaines de ces exigences ne concernent pas les communications mais le contenu des communications... ont-elles leur place ici ?**
 
 ## Formats
 
+### Documents
+Les documents sont rédigés en *Markdown*, les images se trouvent dans le répertoire *images/*.
+
 ### Réunions
-Une réunion ne concerne qu'un seul sujet. L'objectif est de mener à bien la discussion (pas nécessairement de consensus) en le moins de temps possible (les réunions, c'est pénible).
+Une réunion ne concerne qu'un seul sujet. L'objectif est de mener à bien la discussion (pas nécessairement de consensus s'il semble impossible/trop lointain) en le moins de temps possible (les réunions, c'est pénible).
 
 Découpe des réunions en 5 phases :
   - Avant : définition et communication du sujet de la réunion, recherche des points à aborder, choix d'un modérateur
-  - Début : ordonner les points à aborder selon un systèmes de points à distribuer
+  - Début : ordonnacement des points à aborder selon un système de points à distribuer
   - Corps : discussion des points et report des conclusions
   - Fin   : agrégat des conclusions et synthèse
   - Après : rédaction du compte-rendu de réunion
@@ -41,7 +46,7 @@ Un modérateur (à l'autorité absolue) veille à ce que la réunion soit le plu
 Un compte-rendu est rapide et simple à lire. Les listes à puces, bien que peu élégantes, sont préférées. Chaque point doit être décrit sans phrases (sinon on n'est plus concis).
 
 La structure est la suivante :
-  - méta-données
+  - méta-données : horaires, durée
   - sujet
   - points et conclusions
   - remarques
