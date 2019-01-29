@@ -2,12 +2,36 @@
 
 Les membres des diverses Parties Prenantes sont des personnes, et ont par conséquent des rôles, des responsabilités, des compétences. Il est important de les prendre en compte pour mener à bien le projet.
 
+## Protocoles
+
+### Constitution de l'équipe
+Nous n'avons pas le choix de l'équipe, par conséquent aucun protocole n'est défini.
+
+Disponibilités des ressources :
+- MOE : totale
+- M1-M2 : disponible (probablement pas durant les vacances scolaires), mais peut mettre du temps à répondre (si demande de travail)
+- MOA & référents : disponible (probablement pas le w-e), en réunion si planifiée et convéniente
+
+### Développement de l'équipe
+Il est nécessaire d'identifier les compétences nécessaires et non-présentes pour chaque tâche, afin d'être en mesure de pallier le manque. La stratégie d'évolution des compétences n'est pas définie, car dépendante de la compétence à faire progresser (on considérera probablement les ressources pédagogiques de l'UPS, la BU et Internet). **Opportunités ? (séminaires/conférences)**
+
+Il est possible que les interractions entre les ressources soient améliorables (mesurées par la performance de l'équipe). Il semble très difficile d'établir un protocole concernant l'évolution des interractions, et ici l'intérêt est faible. On fera surtout attention à ce que certains membres de l'équipe ne s'imposent/s'effacent pas trop fréquemment quand à la prise de décisions. (\#martyTuEnPensesQuoi?)
+
+### Direction de l'équipe
+Afin de pouvoir évaluer l'efficacité des mesures prises et ajuster la direction de l'équipe, il est nécessaire d'avoir une métrique de performance, actuellement non-définie (**burn down chart** ?).
+
+**Comment dire que la RH est aussi là pour régler des soucis relationnels, d'emplois du temps, de n'importe quoi tant que ça concerne une ressource humaine ?**
+
+## Exigences
+Aucune exigence ne concernant les Ressources Humaines n'a été émise par quelque Partie Prenante que ce soit.
+
+
 ## Rôles
 
   - Jérémie Huteau, Quentin Marty, Pierre Pomeret-Coquot : MOE
   - Thomas Pellegrini : MOA et enseignant référent
   - Raquel Oliveira : SJQ
-  
+
 
 ## Responsabilités
 
@@ -48,22 +72,3 @@ R = Responsible (Réalise)
 A = Accountable (a Autorité)
 C = Consulted (est Consulté)
 I = Informed (est Informé)
-
-
-# Processus d'exécution
-
-## Constitution de l'équipe
-Confirmer la disponibilité des ressources et obtenir l'équipe nécessaire à la conduite du projet.
-
-  - MOE : disponible tout le temps
-  - M1-M2 : disponible, mais peut mettre du temps à répondre (si demande de travail)
-  - MOA : disponible par mail, par réunion si disponible
-  - Enseignants (référents) : disponibles
-
-## Développement de l'équipe
-Améliorer les compétences (formations), les interactions au sein de l'équipe.
-
-## Direction de l'équipe
-Suivre la performance de l'équipe, fournir des retours d'information, résoudre des problèmes.
-
-Comment mesurer la performance de l'équipe ? https://en.wikipedia.org/wiki/Burn_down_chart
