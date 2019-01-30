@@ -16,6 +16,8 @@
 
 ### 1.2) Planifier : susciter l'interet de la PP tout au long du projet
 
+Pour savoir quoi faire, j'utilise la matrice pouvoir/interet (graphiques arriveront plus tard)
+
 - MOA : rendre des livrables fonctionnels, préparer des rendez-vous réguliers et garder 
 la cohérence entre ceux-ci, lui faire des comptes rendus de ce qu'on a fait (ou qu'on est entrain de faire)
 
