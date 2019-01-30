@@ -1,23 +1,4 @@
 
-# Plan de Management de Projet
-
-Groupe A
-
- - Jérémie Huteau
- - Quentin Marty
- - Pierre Pomeret-Coquot
- 
-
-
-## Préambule
-
-...
-
----
-
-
-
-
 
 ## PM Contenu
 
@@ -62,17 +43,16 @@ Fiches d'avancement Interpromo
 
 ### Réalisation du contenu
 
-Protocole : 
+Pour chaque produit liste (TD, compte-rendu de rendez-vous) :
 
-1. En TD chaque produit attendu est clairement identifié et listé, ainsi que son échéance
-2. Les taches sont estimées en *points d'effort*
-3. Un échéancier est décidé pour la réalisation de ces produits
+1. Les taches sont estimées en *points d'effort*
+3. L'ordonnancment est décidé pour la réalisation de ces produits (voir PM délais : ordonnancement + échéance)
 4. On attribue à chaque tache un *réalisateur* selon les *points d'effort* attribués
 5. Une branche dédiée est créée sur le dépôt git. La liste des produits (1.) y est déposée
 6. Les produits y sont déposés au fur et à mesure de leure réalisation
 7. Après validation, la branche est fusionnée avec *master* afin d'en faciliter l'accès à Mme Oliveira
 
-Validation :
+## Validation du contenu :
 
 1. L'auteur/l'un des auteurs crée une carte sur le *Trello* (colonne *Validation*)
 2. Le reste du groupe compare le produit à celui identifié et listé en TD (protocole 1.)
