@@ -17,13 +17,13 @@ Les réponses aux communications seront communiquées au groupe.
     - thomas.pellegrini@irit.fr
   - Enseignants référents
     - F. Benamara : remplissage de la fiche hebdomadaire de suivi (drive)
-      - https://docs.google.com/spreadsheets/d/1mXNldjerYVPGoSLtxrQip4bKbGANgVVFuxrIqGd6NQg/edit#gid=327046861
+      - https://docs.google.com/spreadsheets/d/1mXNldjerYVPGoSLtxrQip4bKbGANgVVFuxrIqGd6NQg
   - Groupes M1-M2
     - M. Poquillon & Co : transmission de l'interface à la BD voulue (drive)
-      - https://docs.google.com/spreadsheets/d/1mkJSNJf7G1MV1WiDxpdc_UkcILWSN6-FTRYMVg6mxeo/edit#gid=0
+      - https://docs.google.com/spreadsheets/d/1mkJSNJf7G1MV1WiDxpdc_UkcILWSN6-FTRYMVg6mxeo
   - Communauté scientifique : mesures des résultats, non-ambiguïté
 
-**J'ai l'impression que certaines de ces exigences ne concernent pas les communications mais le contenu des communications... ont-elles leur place ici ?**
+Certaines exigences présentes ici n'ont peut-être pas leur place dans ce domaine (elles concernent le contenu des communications), mais elles nous semblent ne pas être hors-sujet ici.
 
 ## Formats
 
@@ -35,7 +35,7 @@ Une réunion ne concerne qu'un seul sujet. L'objectif est de mener à bien la di
 
 Découpe des réunions en 5 phases :
   - Avant : définition et communication du sujet de la réunion, recherche des points à aborder, choix d'un modérateur
-  - Début : ordonnacement des points à aborder selon un système de points à distribuer
+  - Début : ordonnancement des points à aborder selon un système de points à distribuer
   - Corps : discussion des points et report des conclusions
   - Fin   : agrégat des conclusions et synthèse
   - Après : rédaction du compte-rendu de réunion
