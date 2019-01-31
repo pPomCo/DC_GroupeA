@@ -1,11 +1,14 @@
 # Plan de management des Parties Prenantes
 
 ### 1.1) Identification
-- MOE : nous, le groupe A
+
+- MOE : Jeremie HUTEAU (jeremie.huteau at univ-tlse3 dot fr)
+Pierre POMERET-COQUOT (pierre.pomeret at univ-tlse3 dot fr)
+Quentin MARTY (quentin.marty at univ-tlse3 dot fr)
 
 ##### Supportive
-- SJQ : Pr. Oliveira (Raquel.Oliveira at irit.fr), Pr. Migeon (Frederic.Migeon at irit.fr)
-- Enseignant DC : F. Benamara (benamara [at] irit.fr) et L.Tamine-Lechani (lechani[at]irit[dot]fr)
+- SJQ : Pr. Oliveira (Raquel.Oliveira at irit dot fr), Pr. Migeon (Frederic.Migeon at irit dot fr)
+- Enseignant DC : F. Benamara (benamara [at] irit dot fr) et L.Tamine-Lechani (lechani[at]irit[dot]fr)
 
 ##### Neutral
 - MOA : Pr . Pellegrini : (thomas.pellegrini [at] irit [dot] fr)
@@ -13,6 +16,7 @@
 
 ##### Unaware
 - la Communauté scientifique : tous ceux qui pourront utiliser ou s'inspirer de nos produits
+
 
 ### 1.2) Planifier : susciter l'interet de la PP tout au long du projet
 
@@ -24,4 +28,7 @@ la cohérence entre ceux-ci, lui faire des comptes rendus de ce qu'on a fait (ou
 - Enseignant DC + Communauté Scientifique : pas besoin de plus d'implication de leur part {à enlever peut être ?}
 
 ### 1.3) Protocoles de gestion et de contrôle
+
+![Matrice Pouvoir/interet](https://zupimages.net/up/19/05/zxtd.png)  
+
 *** pas de protocole encore définit ***
