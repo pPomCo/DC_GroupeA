@@ -1,9 +1,3 @@
-### ------------
-le PMQ selon Dr. Migeon : https://app.elaastic.com/player/index.html#/play/FredoMigeon/584a6effe4b07a30b65a6499/html?toc=1#584a378be4b07a30b65a6459
-
-Objectif : Veiller à ce que les exigences du projet, notamment les exigences du produit, soient respectées et validées.
-### ------------
-
 # PM Qualité
 
 ## 1.1) Identification des exigences qualité
@@ -17,10 +11,10 @@ Exigences qualités d'origine externe (via les PP) :
 - 11 : Utilisation de Python avec Scikit ou Keras (exigence de Dr. TP)
 - 12 : Aucune autre pour l'instant, ça ne saurait tarder
 
-Exigences qualités d'origine interne (via réunions et bonnes pratiques qui font consensus dans le milieu informatique) : 
-[X] 21 : Les produits, consituant des livrables, devront être partagé et developpé par plusieurs membres de l'équipe avec facilité
-[ ] 22 : Pour s'assurer que tous les membres du groupe ont comprit une tâche -> faire modélisation besoin ? faire precondition/postcondition ?
-[ ] 23 : Pour s'assurer que tous les SP fonctionnent bien
+Exigences qualités d'origine interne (via réunions et bonnes pratiques qui font consensus dans le milieu informatique) :  
+[X] 21 : Les produits, consituant des livrables, devront être partagé et developpé par plusieurs membres de l'équipe avec facilité  
+[ ] 22 : Pour s'assurer que tous les membres du groupe ont comprit une tâche -> faire modélisation besoin ? faire precondition/postcondition ?  
+[ ] 23 : Pour s'assurer que tous les SP fonctionnent bien  
 
 ## 1.2) Solutions qualité
 - 11 : Exigence simple à satisfaire : developper avec python
