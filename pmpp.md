@@ -2,9 +2,9 @@
 
 ### 1.1) Identification
 
-- MOE : Jeremie HUTEAU (jeremie.huteau at univ-tlse3 dot fr)
-Pierre POMERET-COQUOT (pierre.pomeret at univ-tlse3 dot fr)
-Quentin MARTY (quentin.marty at univ-tlse3 dot fr)
+- MOE : Jeremie HUTEAU (jeremie.huteau at univ-tlse3 dot fr)  
+Pierre POMERET-COQUOT (pierre.pomeret at univ-tlse3 dot fr)  
+Quentin MARTY (quentin.marty at univ-tlse3 dot fr)  
 
 ##### Supportive
 - SJQ : Pr. Oliveira (Raquel.Oliveira at irit dot fr), Pr. Migeon (Frederic.Migeon at irit dot fr)
