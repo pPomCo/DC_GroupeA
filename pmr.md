@@ -39,7 +39,8 @@ Dans le cas inverse, l’objectif est l'atténuation du risque : c’est à dire
 
 Afin de réduire la probabilité de la plupart des risques, une bonne communication aussi bien au sein du groupe qu’avec l’environnement est nécessaire.
 Réunions régulières (cf formalisme des réunions).
-Entretiens préparés et bonne écoute du MOA, compte rendu des entretiens a générer.
+Entretiens préparés et bonne écoute du MOA, compte rendu des entretiens a générer.  
+Répartition des données entre tous les membres du groupe grâce à github et sauvegardes regulières encore à formaliser.
 
 En ce qui concerne les opportunités, la stratégie adoptée est l’exploitation.
 
