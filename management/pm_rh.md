@@ -13,49 +13,45 @@ Disponibilités des ressources :
 - MOA & référents : disponible (probablement pas le w-e), en réunion si planifiée et convéniente
 
 ### Développement de l'équipe
-Il est nécessaire d'identifier les compétences nécessaires et non-présentes pour chaque tâche, afin d'être en mesure de pallier le manque. La stratégie d'évolution des compétences n'est pas définie, car dépendante de la compétence à faire progresser (on considérera probablement les ressources pédagogiques de l'UPS, la BU et Internet). **Opportunités ? (séminaires/conférences)**
+Il est nécessaire d'identifier les compétences nécessaires et non-présentes pour chaque tâche, afin d'être en mesure de pallier le manque. La stratégie d'évolution des compétences n'est pas définie, car dépendante de la compétence à faire progresser (on considérera probablement les ressources pédagogiques de l'UPS, la BU et Internet).
 
-Il est possible que les interractions entre les ressources soient améliorables (mesurées par la performance de l'équipe). Il semble très difficile d'établir un protocole concernant l'évolution des interractions, et ici l'intérêt est faible. On fera surtout attention à ce que certains membres de l'équipe ne s'imposent/s'effacent pas trop fréquemment quand à la prise de décisions. (\#martyTuEnPensesQuoi?)
+Il est possible que les interractions entre les ressources soient améliorables (mesurées par la performance de l'équipe). Il semble très difficile d'établir un protocole concernant l'évolution des interractions, et ici l'intérêt est faible. On fera surtout attention à ce que certains membres de l'équipe ne s'imposent/s'effacent pas trop fréquemment quand à la prise de décisions.
 
 ### Direction de l'équipe
-Afin de pouvoir évaluer l'efficacité des mesures prises et ajuster la direction de l'équipe, il est nécessaire d'avoir une métrique de performance, actuellement non-définie (**burn down chart** ?).
-
-**Comment dire que la RH est aussi là pour régler des soucis relationnels, d'emplois du temps, de n'importe quoi tant que ça concerne une ressource humaine ?**
+Afin de pouvoir évaluer l'efficacité des mesures prises et ajuster la direction de l'équipe, il est nécessaire d'avoir une métrique de performance, actuellement non-définie.
+La gestion des problèmes divers (dans le cadre du "travail" et qui concernent des RH) est très difficile à définir. Nous avons décidé de tous veiller au maintien d'un bon environnement de travail.
 
 ## Exigences
 Aucune exigence ne concernant les Ressources Humaines n'a été émise par quelque Partie Prenante que ce soit.
 
-
 ## Rôles
-
   - Jérémie Huteau, Quentin Marty, Pierre Pomeret-Coquot : MOE
   - Thomas Pellegrini : MOA et enseignant référent
   - Raquel Oliveira : SJQ
 
-
 ## Responsabilités
-
   - MOE : ~100h de travail chacun
-  - Jérémie : Chef de projet => dans Rôles ou Responsabilités ?
-  - Pierre : Responsable délai (à priori) ?
+  - Jérémie : Chef de projet
 
 ## Compétences
-
   - Thomas Pellegrini : apprentissage
   - Jérémie, Quentin : bases en apprentissage (Pierre en progrès)
   - Enseignants UPS : apprentissage, mathématiques, traitement de données, etc...
 
-## Autorités
-
-  - Frederic Migeon (SJQ)
-    - Raquel Oliveira (SJQ)
-
-  - Jérémie Huteau (Chef de projet)
-    - MOE ? est-ce une vraie relation d'autorité ou juste la conséquence du rôle dans le projet ?
-
 ## Matrice RACI
 
-A faire !!
+Il faudra la mettre en forme !!
+
+Communications : PM, Gestion des communications
+RH : PM, Développement, Direction
+Intégration : PMP, Charte, Direction, Maîtrise, Clotûre
+
+PPs : MOE, MOA, Refs, SJQ, M1-M2
+Je ne pense pas qu'il soit pertinent de mettre les personnes pour l'instant, vu qu'on a pas trop décidé des rôles & co (et c'est pas obligatoire il me semble).
+
+J'ai l'impression qu'on a R et A partout pour MOE, un peu toutes les PPs en C dans la communication, le MOA en C dans la clotûre (Inté) et le SJQ en I(on leur passe le dépôt git..) et C (en TD on demande des conseils).
+
+---
 
 "Cette matrice représente l'organisation du travail en reliant dans un tableau commun la Structure de découpage de projet (WBS) et la Structure organisationnelle du projet (OBS)."
 Est-ce que l'on doit mettre les membres assignés aux tâches de la WBS, ou juste "MOE" ?
