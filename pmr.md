@@ -1,10 +1,3 @@
-###
-
-fichier google docs : https://docs.google.com/document/d/13WGvIXMozl2X4bofrFhqU-czDP2W3N10LkqVcEdWDK8/edit
-
-###
-
-
 # Plan de management des risques
 
 
@@ -12,6 +5,7 @@ fichier google docs : https://docs.google.com/document/d/13WGvIXMozl2X4bofrFhqU-
 __Risques d’origine interne :__
 * Baisse de motivation notable d’un membre du groupe (11)
 * Echec ou retard dans la réalisation de certains objectifs d’itération (12)
+* Perte de données (13)
 
 __Risques d’origine externe :__
 * Le MOA ne s’implique plus, perd de l'intérêt pour le projet (21)
@@ -24,12 +18,13 @@ __Opportunités :__
 
 * 11 : Certains aspects (domaines de connaissance) ne seront plus aussi bien réalisé ce qui va affecter le bon déroulement du projet et l’atteinte des objectifs
 * 12 : Preuve de mauvaise gestion du projet, peut entraîner des surcoûts de management supplémentaire (concession de certaines partie du projet jugées moins importantes)
+* 13 : Perte de temps, coût de remanagement des délais
 * 21 : Risque d’incompréhension des attentes du MOA, réalisation des besoins plus difficile
 * 22 : Mise à l'échelle impossible
 * 31 : Gain de temps en R&D
 
-**Matrice de criticité**
-(voir le fichier)
+**Matrice de criticité**  
+![CriticityMatrix](https://zupimages.net/up/19/05/jeqn.png)
 
 
 
