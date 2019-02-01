@@ -32,5 +32,5 @@ L'application de toutes les exigences doit être validée par consensus pour êt
 
 | Tâche		| MOE   | MOA   | Réfs  | SJQ   | M1/M2 |
 | :-----------: | :---: | :---: | :---: | :---: | :---: |
-| Exigences	| R,A	| C	| X	| C,I	| C	|
-| Solutions	| R,A	| I	| X	| I	| I	|
+| Exigences	| R, A	| C	| X	| I	| C, I	|
+| Solutions	| R, A	| I	| X	| I	| I	|
