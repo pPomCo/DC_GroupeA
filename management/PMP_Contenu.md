@@ -122,9 +122,9 @@ Format :
 
 ### SDP
 
-http://yuml.me/edit/4c1636bc
+http://yuml.me/edit/b0351123
 
-![Image SDP](http://yuml.me/4c1636bc.png)
+![Image SDP](http://yuml.me/b0351123.png)
 
 Le sous-découpage et l'évaluation des tâches en points d'effort sera effectuée
 lors des réunions d'ouverture d'itération.
@@ -146,13 +146,12 @@ lors des réunions d'ouverture d'itération.
 			[Soutenance]-[Diaporama],
 			[Soutenance]-[Script],
 	[Projet]-[InterPromo], 
-		[InterPromo]-[Prediction confort],   
-		[Prediction confort]-[Fenetre temporelle], 
-	[InterPromo]-[Prediction conso],
-		[Prediction conso]-[Regression lineaire],
-		[Prediction conso]-[RNN],
-		[Prediction conso]-[CRNN],
-		[Prediction conso]-[Reduction en dimension],
+		[InterPromo]-[Recherche],
+			[Recherche]-[RNN],
+			[Recherche]-[CRNN],
+			[Recherche]-[Reduction en dimension],
+			[Recherche]-[Regression],
+		[Interpromo]-[Analyse comparative]
 
 
 ### Matrice RACI pour la gestion du contenu
