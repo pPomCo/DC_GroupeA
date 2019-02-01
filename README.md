@@ -4,7 +4,7 @@
 	
 ## Livrables TD -> Mme Oliveira
 
-Le [PMP Initial](management/PMP.md) se trouve sur cette branche (*master*), dans le dossier *management/*.
+Le **PMP Initial** se trouve : [/management/PMP.md](management/PMP.md)
 
 
 ## Équipe
@@ -16,7 +16,7 @@ Le [PMP Initial](management/PMP.md) se trouve sur cette branche (*master*), dans
 ## Version actuelle
 
 La dernière version stable est **Itération 0 (organisation)**  
-La version en cours est **Itération 1 (exécution)** (débutée le 4 février sur la [branche iter1](#))
+La version en cours est **Itération 1 (exécution)** (débutée le 4 février sur la [branche execution1](https://github.com/pPomCo/DC_GroupeA/tree/execution1))
 
 
 ## Liens annexes
@@ -61,7 +61,7 @@ Quelques rappels rapides :
 	# Actualiser le dépôt distant avec le contenu du dossier local
 	git push
 
-On travaille sur la branche iterN, qui sera fusionnée avec master en fin d'itération.  
+On travaille sur la branche phaseN (ex: execution2), qui sera fusionnée avec master en fin d'itération.  
 Normalement tout se passe bien.
 
 Si vous voulez utiliser *merge*, *--amend*, *reset head* ou encore *-f*, merci de le faire
