@@ -42,4 +42,9 @@ Répartition des données entre tous les membres du groupe grâce à github et s
 
 En ce qui concerne les opportunités, la stratégie adoptée est l’exploitation.
 
+### RACI pour Risques
 
+| Tâche		| MOE   | MOA   | Réfs  | SJQ   | M1/M2 |
+| :-----------: | :---: | :---: | :---: | :---: | :---: |
+| Identification	| R, A	| X	| X	| C	| X	|
+| Solutions	| R, A	| X	| X	| I	| X	|
