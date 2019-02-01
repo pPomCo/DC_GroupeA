@@ -14,7 +14,7 @@
 #### Opportunités :
 * Conseils de la part des M2 et du référent au niveau de la partie R&D (31)
 
-### 1.2) Conséquence et analyse qualitative des risques
+### Conséquence et analyse qualitative des risques
 
 * 11 : Certains aspects (domaines de connaissance) ne seront plus aussi bien réalisé ce qui va affecter le bon déroulement du projet et l’atteinte des objectifs
 * 12 : Preuve de mauvaise gestion du projet, peut entraîner des surcoûts de management supplémentaire (concession de certaines partie du projet jugées moins importantes)
@@ -30,7 +30,7 @@
 
 Ordre de priorité des risques : 31, 12, 13, 21, 11, 22
 
-### 1.3) Stratégies de gestion des risques
+### Stratégies de gestion des risques
 
 La stratégie adoptée pour les risques dont la criticité estimée (cf matrice) est strictement sous la diagonale est   “l’acceptation”, c’est à dire traiter le risque seulement s’il se produit puisque concevoir une solution pour chaque  
 risques de faible impact et faible probabilité est un surcoût de management trop important et ne laisse pas de flexibilité managériale.  
