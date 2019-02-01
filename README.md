@@ -1,21 +1,22 @@
 # Projet DC Groupe A
 *Projet master DC inter-promo -- tache 2.3*
 
+	
+## Livrables TD -> Mme Oliveira
+
+Le [PMP Initial](management/PMP.md) se trouve sur cette branche (*master*), dans le dossier *management/*.
+
+
+## Équipe
+
  - Jérémie HUTEAU
  - Quentin MARTY
  - Pierre POMERET-COQUOT
 
 ## Version actuelle
 
-La dernière version stable est **N/A**  
-La version en cours est **Itération 1** (sur la [branche iter1](#))  
-
-## Livrables TD
-
- - [PMP initial](management/PMP.md) -- en cours d'élaboration
- - Revues d'itérations :
-   - Itération 1
-
+La dernière version stable est **Itération 0 (organisation)**  
+La version en cours est **Itération 1 (exécution)** (débutée le 4 février sur la [branche iter1](#))
 
 
 ## Liens annexes
@@ -44,10 +45,16 @@ Quelques rappels rapides :
 	
 	# Créer une branche (ne se déplace pas)
 	git branch <branche>
-	
+
 	# Voir l'état actuel
 	git status
-	
+
+	# Définir les fichiers ou dossiers participant au commit
+	git add <fichier1> [<fichier2> ...]
+
+	# Définir que tous les fichiers et (sous-)dossiers du répertoire courant participeront au commit
+	git add .
+
 	# Commit (enregistre l'état actuel sur la branche courante)
 	git commit -m "<message>"
 	

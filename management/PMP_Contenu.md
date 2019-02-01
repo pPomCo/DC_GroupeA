@@ -4,8 +4,6 @@
 
 *S'assurer que tous le travail requis, et seulement le travail requis, est réalisé.*
 
-... supervise ce domaine de connaissance.
-
 Plusieurs aspects, plusieurs produits :
 
 1. Documents de TD (=SJQ)
@@ -46,8 +44,9 @@ Fiches d'avancement Interpromo
 Pour chaque produit liste (TD, compte-rendu de rendez-vous) :
 
 1. Les taches sont estimées en *points d'effort*
-3. L'ordonnancment est décidé pour la réalisation de ces produits (voir PM délais : ordonnancement + échéance)
-4. On attribue à chaque tache un *réalisateur* selon les *points d'effort* attribués
+2. L'ordonnancment est décidé pour la réalisation de ces produits (voir PM délais : ordonnancement + échéance)
+3. On attribue à chaque tache un *réalisateur* selon les *points d'effort* attribués
+4. On attribue à chaque tache un *référent* différent du *réalisateur*. Il aide et contrôle.
 5. Une branche dédiée est créée sur le dépôt git. La liste des produits (1.) y est déposée
 6. Les produits y sont déposés au fur et à mesure de leure réalisation
 7. Après validation, la branche est fusionnée avec *master* afin d'en faciliter l'accès à Mme Oliveira
@@ -55,7 +54,7 @@ Pour chaque produit liste (TD, compte-rendu de rendez-vous) :
 ## Validation du contenu :
 
 1. L'auteur/l'un des auteurs crée une carte sur le *Trello* (colonne *Validation*)
-2. Le reste du groupe compare le produit à celui identifié et listé en TD (protocole 1.)
+2. Le *référent* compare le produit à celui identifié et listé en TD (protocole 1.)
 3. Les remarques / réserves / objections / suggestions sont ajoutées en commentaire à la carte sur le *Trello*. Si besoin, une réunion peut être organisée.
 4. La validation est actée. La carte reste sur le *Trello* jusqu'à ce que la branche ait été fusionnée
 
@@ -127,17 +126,45 @@ http://yuml.me/edit/4c1636bc
 
 ![Image SDP](http://yuml.me/4c1636bc.png)
 
-...
+Le sous-découpage et l'évaluation des tâches en points d'effort sera effectuée
+lors des réunions d'ouverture d'itération.
 
----
+"Code" pour yuml :
+
+	%2F%2F SDJ, 
+	, 
+	[Projet]-[UE], 
+	, 
+		[UE]-[PAQL], 
+		[UE]-[PMP], 
+		[UE]-[Comptes-rendus],
+			[Comptes-rendus]-[CR iteration],
+			[Comptes-rendus]-[CR RDV client],
+		[UE]-[Cahier de recette],
+		[UE]-[Bilan],
+		[UE]-[Soutenance],
+			[Soutenance]-[Diaporama],
+			[Soutenance]-[Script],
+	[Projet]-[InterPromo], 
+		[InterPromo]-[Prediction confort],   
+		[Prediction confort]-[Fenetre temporelle], 
+	[InterPromo]-[Prediction conso],
+		[Prediction conso]-[Regression lineaire],
+		[Prediction conso]-[RNN],
+		[Prediction conso]-[CRNN],
+		[Prediction conso]-[Reduction en dimension],
 
 
+### Matrice RACI pour la gestion du contenu
 
-
-
-
-
-## PM Délais
+| Tâche		| MOE   | MOA   | Réfs  | SJQ   | M1/M2 |
+| :-----------: | :---: | :---: | :---: | :---: | :---: |
+| Recueil exig.	| R,A	| C,I	| C	| C,I	| C ?	|
+| SDJ		| R,A	| C,I	| C ? 	| I	|	|
+| Recette	| R,A	| C,I	| C,I ? | 	|	|
+| Soutenance	| R,A	| 	|  	| I 	|	|
+| Fiches av. IP	| R,A	| 	| I  	|  	|	|
+| Maîtrise ctn	| R,A,C |	|	|	|	|
 
 
 
