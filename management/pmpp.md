@@ -1,6 +1,6 @@
 # Plan de management des Parties Prenantes
 
-### 1.1) Identification
+### Identification
 
 - MOE : Jeremie HUTEAU (jeremie.huteau at univ-tlse3 dot fr)  
 Pierre POMERET-COQUOT (pierre.pomeret at univ-tlse3 dot fr)  
@@ -20,15 +20,13 @@ Quentin MARTY (quentin.marty at univ-tlse3 dot fr)
 
 ### 1.2) Planifier : susciter l'interet de la PP tout au long du projet
 
-Pour savoir quoi faire, j'utilise la matrice pouvoir/interet (graphiques arriveront plus tard)
+![Matrice Pouvoir/intêret](https://zupimages.net/up/19/05/zxtd.png)  
 
 - MOA : rendre des livrables fonctionnels, préparer des rendez-vous réguliers et garder 
 la cohérence entre ceux-ci, lui faire des comptes rendus de ce qu'on a fait (ou qu'on est entrain de faire)
 
-- Enseignant DC + Communauté Scientifique : pas besoin de plus d'implication de leur part {à enlever peut être ?}
+- Enseignant DC et Communauté Scientifique : pas besoin de plus d'implication de leur part
 
 ### 1.3) Protocoles de gestion et de contrôle
 
-![Matrice Pouvoir/interet](https://zupimages.net/up/19/05/zxtd.png)  
-
-*** pas de protocole encore définit ***
+*** pas de protocole plus précis que la matrice pouvoir/intêret encore définit ***
