@@ -26,3 +26,10 @@ Exigences qualités d'origine interne, réunions et bonnes pratiques (notée de 
 ## Contrôle qualité
 
 L'application de toutes les exigences doit être validée par consensus pour être considérée conforme et fonctionnelle
+
+
+## Raci pour qualité
+
+| Tâche		| MOE   | MOA   | Réfs  | SJQ   | M1/M2 |
+| :-----------: | :---: | :---: | :---: | :---: | :---: |
+| Exigences	| R,A	| C	| X	| C,I	| C	|
