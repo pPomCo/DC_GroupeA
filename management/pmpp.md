@@ -18,7 +18,7 @@ Quentin MARTY (quentin.marty at univ-tlse3 dot fr)
 - la Communauté scientifique : tous ceux qui pourront utiliser ou s'inspirer de nos produits
 
 
-### 1.2) Planifier : susciter l'interet de la PP tout au long du projet
+### Planifier : susciter l'interet de la PP tout au long du projet
 
 ![Matrice Pouvoir/intêret](https://zupimages.net/up/19/05/zxtd.png)  
 
@@ -27,6 +27,13 @@ la cohérence entre ceux-ci, lui faire des comptes rendus de ce qu'on a fait (ou
 
 - Enseignant DC et Communauté Scientifique : pas besoin de plus d'implication de leur part
 
-### 1.3) Protocoles de gestion et de contrôle
+### Protocoles de gestion et de contrôle
 
-*** pas de protocole plus précis que la matrice pouvoir/intêret encore définit ***
+** pas de protocole plus précis que la matrice pouvoir/intêret encore définit **
+
+### RACI pour PP
+
+| Tâche		| MOE   | MOA   | Réfs  | SJQ   | M1/M2 |
+| :-----------: | :---: | :---: | :---: | :---: | :---: |
+| Planification	| R, A	| X	| X	| X	| X	|
+| Protocoles	| R, A	| X	| X	| C	| X	|
