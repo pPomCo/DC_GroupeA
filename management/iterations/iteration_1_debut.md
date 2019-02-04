@@ -1,30 +1,30 @@
-﻿# Début d'itération n°1 : 14/01-27/01
-Lundi 14/01 (échec/préparation) et jeudi 17/01
+# Début d'itération n°1 : 04/02-17/02
 
-## Etat actuel | contexte du projet
-### Gestion du projet
-- connaissances du processus de gestion de projet très incomplètes
-- début des TDs, avec l'aide d'un enseignant et des livrables à produire
+Lundi 04/02
 
-### Métier
-- connaissances basiques des données (volume, allure), du domaine
-- besoin d'exploiter les données, mais comment ?
-- besoins à exprimer et à satisfaire peu clairs (dépendances autres groupes)
+### Etat actuel | contexte du projet
 
-## Objectifs
-- PMP v1 (complet, incorrect)
-- Recherche & Développement, renforcement connaissances
+#### Gestion de projet
 
-## Livrables
-### PMP v1
-- pour chaque domaine de connaissances de la gestion de projet : créer un court résumé de son rôle dans le projet et identifier les documents et livrables associés
-- concevoir une structure pour le PMP
-- assigner les rôles de superviseurs/responsables
-- réaliser les documents sélectionnés
-- intégrer les documents au PMP et mettre en forme
+ - PMP initial fait
+ - Montée en compétence (gestion) effectuée
+ 
+#### Métier
 
-### Rapport
-- prendre connaissance de l'environnement/écosystème : notebook, python, keras, scikit
-- concevoir une structure et un contenu pour le rapport
-- explorer le domaine pour développer une solution satisfaisant les objectifs du projet (prédictions)
+ - Les exigences sont encore mal définies.
+ 
+### Objectifs
 
+ - **Formaliser et valider les exigences du client** :
+    - Contact par mél -> attendre la réponse
+    - Organiser RDV lundi prochain.
+ - R&D :
+    - Ébauche notebook jupyter
+    - Préparation des données :
+        - Définir les formats et structures nécessaires
+        - Formatter et structurer les données
+ 
+### Livrables
+
+Non identifiés. 
+ 
