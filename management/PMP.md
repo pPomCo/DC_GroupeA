@@ -445,29 +445,54 @@ La structure est la suivante :
 # PM Risques
 
 ## Identifications des risques / opportunités
-### Risques d’origine interne :
-* Baisse de motivation notable d’un membre du groupe (11)
-* Echec ou retard dans la réalisation de certains objectifs d’itération (12)
-* Perte de données (13)
 
-### Risques d’origine externe :
-* Le MOA ne s’implique plus, perd de l'intérêt pour le projet (21)
-* Coopération difficile avec les groupes dont on dépend (22)
+### 1. Risques humains :
 
-### Opportunités :
-* Conseils de la part des M2 et du référent au niveau de la partie R&D (31)
+1. Baisse de productivité d’un membre du groupe liée à une cause personnelle
+2. Mauvais recueil des exigences
+
+	Echec ou retard dans la réalisation de certains objectifs d’itération (mal défini)
+
+### 2. Risques externes :
+
+1. Le MOA ne s’implique plus, perd de l'intérêt pour le projet
+2. Coopération difficile avec les groupes dont on dépend
+3. Perte de productivité des PP (autres M1-M2)
+4. Les autres comprennent mal nos exigences
+5. Modification des échéances, particulièrement de la soutenance
+6. Chute de météorite de dinosaures glacés glacée
+
+### 3. Risques techniques
+ 
+1. Perte de matériel
+2. Perte de données
+3. Perte du produit
+
+### 4. Risques organisationnels
+
+ - Aucun
+
+### 5. Opportunités :
+
+1. Conseils de la part des M2 et du référent au niveau de la partie R&D
 
 ## Conséquence et analyse qualitative des risques
 
-* 11 : Certains aspects (domaines de connaissance) ne seront plus aussi bien réalisé ce qui va affecter le bon déroulement du projet et l’atteinte des objectifs
-* 12 : Preuve de mauvaise gestion du projet, peut entraîner des surcoûts de management supplémentaire (concession de certaines partie du projet jugées moins importantes)
-* 13 : Perte de temps, coût de remanagement des délais
-* 21 : Risque d’incompréhension des attentes du MOA, réalisation des besoins plus difficile
-* 22 : Mise à l'échelle impossible
-* 31 : Gain de temps en R&D
 
-**Matrice de criticité :**  
-![CriticityMatrix](https://zupimages.net/up/19/05/jeqn.png)
+**Matrice de criticité :**
+
+![Matrice de criticité](images/criticite.png)
+
+	Ancienne version :
+
+	 - Risque 1.1 : Certains aspects (domaines de connaissance) ne seront plus aussi bien réalisés ce qui va affecter le bon déroulement du projet et l’atteinte des objectifs
+	 - Risque 1.2 : Preuve de mauvaise gestion du projet, peut entraîner des surcoûts de management supplémentaire (concession de certaines partie du projet jugées moins importantes)
+	 - Risque 1.3 : Perte de temps, coût de remanagement des délais
+	 - Risque 2.1 : Risque d’incompréhension des attentes du MOA, réalisation des besoins plus difficile
+	 - Risque 2.2 : Mise à l'échelle impossible
+	 - Risque 3.1 : Gain de temps en R&D
+
+	https://zupimages.net/up/19/05/jeqn.png
 
 Ordre de priorité des risques : 31, 12, 13, 21, 11, 22
 

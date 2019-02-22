@@ -1,4 +1,4 @@
-# Début d'itération n°1 : 18/02-03/03
+# Début d'itération n°2 : 18/02-03/03
 
 Jeudi 21/02
 
@@ -32,10 +32,10 @@ Les taches sont clairement définies !
 
 1. Prétraitement
   - Regroupement des valeurs co2,hum,lum,temp
-    - Par seconde / minute / heure
-    - Avec nan pour les valeurs absentes
-    - Avec pandas ou Makefile si c'est plus pratique
-    - Etiqueter avec la valeur de confort
+  - Par seconde / minute / heure
+  - Avec nan pour les valeurs absentes
+  - Avec pandas ou Makefile si c'est plus pratique
+  - Etiqueter avec la valeur de confort
 2. Exploration des données
   - Corrélations entre capteurs et/ou avec la valeur de confort
   - Représenter histogrammes / courbes
@@ -56,11 +56,11 @@ Les taches sont clairement définies !
 Répartition :
 
 | Travail          | Auteur   | Effort | Date butoir |
-| ----- ---------- | -------- | ------ | ----------- |
+| ---------------- | -------- | ------ | ----------- |
 | 1. Prétraitement | Pierre   | 8      | mardi 26    |
 | 2. Exploration   | Jérémie  | 5      | mercredi 27 |
 | 3. Modèle        | Quentin  | 5 à 20 | jeudi 28    |
-| 4. Evaluation    | Jérémie  | 5      | vendredi 29 |
+| 4. Evaluation    | ???      | 5      | vendredi 29 |
 | 5. Rapport       | Tous     | 4      | samedi 30   |
 
 
