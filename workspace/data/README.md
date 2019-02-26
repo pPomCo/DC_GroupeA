@@ -1,57 +1,88 @@
-# workspace/data/group
+# workspace/data/
 
-**Work in progress**
+Mise en forme des données
 
-C'est pas vraiment au point mais on peut déjà faire les moyennes journalières / horaires.
+## Sélection des lignes
 
-Pour les minutes, c'est très très long :-( J'y reviendrai
+Avec le *Makefile* on peut créer des fichiers csv correspondants aux selections :
 
-Pour les secondes : pas assez de valeurs, autant travailler avec les données non groupées !
+ - sur l'ilot / les ilots
+ - sur le capteur / tous les capteurs
 
-Je terminerai lundi
+A partir de la base allégée ('lite' : même info, 230Mo).
 
+Il est conseillé de générer une fois la base allégée (un peu long) en tant qu'action principale (*make neocampus.lite.csv*)
+pour qu'elle soit enregistrée.
 
-## Makefile
+Pour cela :
 
-Combine les valeurs des différents types de capteurs, par ilot
-
-Note : le makefile génère aussi la base de données 'lite' (même info, 230Mo).  
-Est-ce ici qu'il faut le faire ?
-
-	# Crée tous les jeux de données regroupées et la base lite
+	# Créer la base intermédiaire et les partitions standards
 	make
-
-	# Crée la base lite
+	
+	# Créer la base allégée
 	make neocampus.lite.csv
 	
-	# Sélection de la base lite pour l'ilot <ilot> (ni moyenne, ni regroupement)
-	# ilot = ilot1 | ilot2 | ilot3 | ouest | n57 | n79 | all
-	make ilot.<ilot>.csv
+	# Créer une sélection sur l'ilot *ilot1* et la température
+	make parts/ilot1.temp.csv
+	
+	# Créer une sélection sur les ilots *ouest* et *n57*, pour tous les capteurs
+	make parts/ouest-n57.all.csv
 
-	# Crée le jeu de données regroupées pour l'ilot <ilot> et l'intervalle <intervalle>
-	# ilot = ilot1 | ilot2 | ilot3 | ouest | n57 | n79 | all
-	# intervalle = day | hour | min | sec
-	make group.ilot1.<ilot>.<intervalle>.csv
 
 ---
 
-## average.py
+## Regroupement des lignes par moyenne et annotation
 
-Calcule la moyenne sur l'intervalle specifié et regroupe les valeurs co2, hum, lum, temp sur la même ligne.
+Avec le script *preproc.py* on atteint ces buts :
 
-Ce script est appelé par le Makefile. Il peut aussi être utilisé tel quel :
+ - Moyenne sur un intervalle donné (en seconde)
+ - Regroupement des capteurs sur une même ligne
+ - Annotation avec la fonction de confort des M2
 
-	# Usage
-	python3 average.py fichier num_secs
+Il est conseillé de :
 
-Le format de fichier attendu en entrée est celui de la base *lite*, c'est à dire :
-
-	<ilot>;<type>;<timestamp>;<valeur>
-
-Le format en sortie est :
-
-	<timestamp2>;<co2>;<hum>;<lum>;<temp>
-
-Le traitement n'est pas efficace et sera revu.
+ - Travailler avec la sélection la plus restreinte en entrée (accélère le temps de lecture et de moyenne)
+ - Utiliser un intervalle de moyenne suffisament grand (annotation en *O(intervalle)* )
 
 
+### Usage
+
+	# Usage:
+	# -d delimiter -- délimiteur du csv (optionnel, défaut = ';')
+	# csvfile -- fichier csv en entrée
+	# num_seconds -- intervalle pour faire les moyennes
+	# sensor_types -- liste des capteurs séparés par un tiret (optionnel, défaut = 'co2-hum-lum-temp')
+
+	python3 preproc.py [-d delimiter] csvfile num_seconds [sensor_types]
+
+
+Si sensor_types est une liste de une seule valeur : on utilise la fonction ad-hoc.  
+Si sensor_types est une liste de plusieurs valeurs : on utilise la fonction *annotationCapteur* en remplaçant les valeurs manquantes par des zéros.
+
+### Exemples
+
+	# Luminosité pour l'ilot *n57*, regroupée par jour
+	csv=parts/n57.lum.csv
+	make $csv
+	python3 preproc.py $csv 86400 lum > output.csv
+	
+	# Tous les capteurs pour l'ilot *ouest*, regroupés par heure
+	csv=parts/ouest.all.csv
+	make $csv
+	python3 preproc.py $csv 3600 > output.csv
+
+	# Tous els capteurs pour les ilots *ilot1*, *ilot2* et *ilot3*, regroupés par semaine
+	csv=parts/ilot1-ilot2-ilot3.all.csv
+	make $csv
+	python3 preproc.py $csv 604800 > output.csv
+
+---
+
+
+### Script *annotationUnique.py*
+
+C'est le script fournit par les M2 (j'ai oublié leur nom...), tel quel. Il est réputé être encore en developpement, mais il fonctionne.  
+
+On a quand même quelques problèmes avec les valeurs absentes (zéro fait baisser la note), mais est-ce de notre ressort ?
+
+---
