@@ -1,6 +1,22 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+# VERSION OBSOLETE, PRENEZ test_val_conf.py #
+
+# VERSION OBSOLETE, PRENEZ test_val_conf.py #
+
+# VERSION OBSOLETE, PRENEZ test_val_conf.py #
+
+# VERSION OBSOLETE, PRENEZ test_val_conf.py #
+
+# VERSION OBSOLETE, PRENEZ test_val_conf.py #
+
+# VERSION OBSOLETE, PRENEZ test_val_conf.py #
+
+# VERSION OBSOLETE, PRENEZ test_val_conf.py #
+
+# VERSION OBSOLETE, PRENEZ test_val_conf.py #
+
 import numpy as np
 from keras.models import load_model, Model
 from annotationUnique import annotationCapteur
