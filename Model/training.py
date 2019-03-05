@@ -108,7 +108,7 @@ recursive_neural_network = kl.LSTM(64)(neural_network_input)
 # recursive_neural_network = kl.CuDNNGRU(64)(neural_network_input) # for nvidia (way way faster)
 
 dense = kl.Dense(16, activation = "relu")(recursive_neural_network)
-dense = kl.Dense(01, activation = "sigmoid")(dense)
+dense = kl.Dense(1, activation = "sigmoid")(dense)
 
 model = Model(inputs = [neural_network_input], outputs = [dense])
 model.summary()
