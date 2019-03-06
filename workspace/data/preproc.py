@@ -81,7 +81,7 @@ def annotate(row):
         elif (row.index[0] == 'temp'):
             row['confort'] = anno.temperature(row['temp'])
         else:
-            print("index '{}' not recognized".format(index[0]),
+            print("index '{}' not recognized".format(row.index[0]),
                   file=sys.stderr)
 
             

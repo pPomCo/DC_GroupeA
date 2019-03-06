@@ -4,6 +4,14 @@
 #   ilot -- identifiants d'ilot séparés par des '-'
 #   capteurs -- type de capteur ou 'all'
 # 
+# et aussi...
+#
+# Produit des corpus annotés avec la commande 'make samples' : 
+# output/<ilots>.<capteurs>.<intervalle>.csv
+#   ilot -- ilot1 | all
+#   capteurs -- all | co2 | hum | lum | temp
+#   intervalle -- 300 | 900 | 1800 | 3600 | 21600 | 86400
+# 
 
 
 # Base originale
@@ -14,19 +22,20 @@ LITE = neocampus.lite.csv
 
 # Dossier des partitions
 PDIR = parts
+ODIR = output
 
 # Fichiers de sortie
 SENSORS = co2 hum lum temp
 ILOTS = ilot1 ilot2 ilot3 ouest n57 n79
-OUTPUT = $(foreach t, $(SENSORS) all, $(foreach i, $(ILOTS), $(PDIR)/$(i).$(t).csv))
-
+PARTS = $(foreach t, $(SENSORS) all, $(foreach i, $(ILOTS) all, $(PDIR)/$(i).$(t).csv))
+SAMPLES = $(foreach t, $(SENSORS) all, $(foreach i, ilot1 all, $(foreach s, 300 1200 3600 21600 86400, $(ODIR)/$(i).$(t).$(s).csv)))
 
 
 
 
 
 # Enregistre la base allégée et les fichiers de sortie
-all: $(LITE) $(OUTPUT)
+all: $(LITE) $(PARTS) $(SAMPLES)
 
 
 # Base allégée 
@@ -83,9 +92,26 @@ $(PDIR)/%.all.csv: ilot.%.csv | $(PDIR)
 
 
 
-# Dossier des partitions
-$(PDIR):
+
+
+# Créer les exemples de training-set
+samples: $(SAMPLES)
+
+$(ODIR)/%.csv: | $(PARTS) $(ODIR)
+	$(eval ilot = $(word 1, $(subst ., ,$*)))
+	$(eval capt = $(word 2, $(subst ., ,$*)))
+	$(eval intv = $(word 3, $(subst ., ,$*)))
+	echo -n "timestamp" > $@
+	python3 preproc.py $(PDIR)/$(ilot).$(capt).csv $(intv) $(if $(filter-out all, $(capt)), $(capt)) >> $@
+	
+
+
+# Dossiers
+$(ODIR) $(PDIR):
 	mkdir -p $@
+
+
+
 
 
 
@@ -97,4 +123,4 @@ clean_base:
 
 maxclean: clean clean_base
 
-.PHONY: all clean maxclean clean_base
+.PHONY: all samples clean maxclean clean_base
