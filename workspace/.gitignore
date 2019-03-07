@@ -1,4 +1,8 @@
 *.csv
 __pycache__
 
+# Except example data
 !data/output/*.csv
+
+# Except example data (compatibility Model/)
+!Model/Formatage/parts/*.csv
