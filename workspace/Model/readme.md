@@ -3,7 +3,7 @@
 - dans un premier temps mettez dans Formatage/parts : les outputs du script de
 prétraitement des donnees sous la forme "ilot"."feature".csv
 
-- lancer le script traning.py qui prend trois arguments : l'ilot, la feature et la taille
+- lancer le script traning.py qui prend trois arguments **(ceci a été modifié)** : l'ilot, la feature et la taille
 d'un vecteur, ce qui enregistrera les models dans le dossier "models" (attention c'est long)
 et ça vous affichera de beaux graphiques pour voir si votre modèle predit bien
 
