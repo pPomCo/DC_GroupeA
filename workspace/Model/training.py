@@ -4,6 +4,7 @@ import keras.backend as K
 import keras.callbacks as kc
 from keras.models import Sequential, load_model, Model
 
+from sklearn import linear_model
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -164,18 +165,34 @@ class MartyModel(object):
     def predict(self, X):
         return self.model.predict(X)
 
+    def score(self, X, Y):
+        return self.model.evaluate(X, Y)
 
+class LinearModel(object):
+    def __init__(self, serie_length, to_predict):
+        self.serie_length = serie_length
+        self.to_predict = to_predict
 
+        self.model = linear_model.LinearRegression()
+
+    def fit(self, X_train, Y_train, X_dev, Y_dev):
+        self.model.fit(X_train.reshape((-1, self.serie_length)), Y_train)
+
+    def predict(self, X):
+        return self.model.predict(X.reshape((-1, self.serie_length)))
+
+    def score(self, X, Y):
+        return ((self.predict(X) - Y)**2).mean()
 
 if __name__ == "__main__":
 
     # argv ?
-    filename = "ilot1.co2.3600.csv"
+    filename = "ilot1.temp.300.csv"
     path = os.path.join(os.path.dirname(sys.argv[0]), "..", "data", "output", filename)
     serie_length = 4
     to_predict = 2
     name = "model-dev"
-    compile_model = True
+    compile_model = False
 
     # Load data
     X, Y, timestamps, Yminmax = load_data(path, serie_length, to_predict)
@@ -183,17 +200,27 @@ if __name__ == "__main__":
 
     # Instanciate model
     m = MartyModel(serie_length, to_predict, name)
+    m_linear = LinearModel(serie_length, to_predict)
 
     # Fit data
     m.fit(*train_set, *dev_set, compile_model=compile_model)
+    m_linear.fit(*train_set, *dev_set)
 
     # Predict
     X_test, Y_test = test_set
     Y_test_pred = m.predict(X_test)
+    Y_linear_pred = m_linear.predict(X_test)
+
+    print("LinearRegression :", m_linear.score(X_test, Y_test))
+    print("MartyModel :", m.score(X_test, Y_test))
 
     # Plot
-    plt.plot(timestamps, np.interp(Y_test, (0,1), Yminmax), label="truth")
-    plt.plot(timestamps, np.interp(Y_test_pred, (0,1), Yminmax), label="prediction")
+    plt.plot(timestamps, np.interp(Y_test, (0,1), Yminmax),
+        label="truth", alpha=0.8)
+    plt.plot(timestamps, np.interp(Y_test_pred, (0,1), Yminmax), 
+        '--', label="prediction", alpha=0.8)
+    plt.plot(timestamps, np.interp(Y_linear_pred, (0,1), Yminmax), 
+        '--', label="linear", alpha=0.8)
     
     plt.xlabel("timestamp")
     plt.ylabel("value")
