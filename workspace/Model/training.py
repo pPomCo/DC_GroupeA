@@ -56,12 +56,29 @@ def load_data(filename, serie_length, to_predict=1, overlap=False):
     timestamps = np.array(timestamps[serie_length * to_predict::step])
 
 
+    # Valeurs de Y[i] OK (égales à la moyenne des X[i+to_predict] )
+##    for i, x in enumerate(X[:5]):
+##        print(*x, Y[i])
+
+        
     # Normalisation entre min et max vers des valeurs de 0 à 1
     Yminmax = Y.min(), Y.max()
     X = np.interp(X, (X.min(), X.max()), (0, 1))
     Y = np.interp(Y, (Y.min(), Y.max()), (0, 1))
 
+    # Valeurs de Y[i] KO (différentes de la moyenne des X[i+to_predict] )
+##    for i, x in enumerate(X[:5]):
+##        print(*x, Y[i])
 
+
+##    print(X_train.shape, X_test.shape, Y_train.shape, Y_test.shape)
+
+    return X, Y, timestamps, Yminmax
+
+
+
+
+def split_data(X, Y, timestamps, ratio_train_dev=0.8, ratio_dev_test=0.1):
     # split between training and validation
     ratio_train_dev = 0.8
     ratio_dev_test = 0.1
@@ -71,15 +88,15 @@ def load_data(filename, serie_length, to_predict=1, overlap=False):
     X_train, X_dev, X_test = X[ : split_index_1], X[split_index_1 : split_index_2], X[split_index_2 : ]
     Y_train, Y_dev, Y_test = Y[ : split_index_1], Y[split_index_1 : split_index_2], Y[split_index_2 : ]
     timestamps_test = timestamps[split_index_2:]
-
+    
     # cause LSTM wants 3d vectors
     X_train = np.expand_dims(X_train, axis=-1)
     X_dev = np.expand_dims(X_dev, axis=-1)
     X_test = np.expand_dims(X_test, axis=-1)
+    
+    return (X_train, Y_train), (X_dev, Y_dev), (X_test, Y_test), timestamps_test
 
-    print(X_train.shape, X_test.shape, Y_train.shape, Y_test.shape)
 
-    return (X_train, Y_train), (X_dev, Y_dev), (X_test, Y_test), timestamps_test, Yminmax
 
 
 
@@ -156,13 +173,13 @@ if __name__ == "__main__":
     filename = "ilot1.co2.3600.csv"
     path = os.path.join(os.path.dirname(sys.argv[0]), "..", "data", "output", filename)
     serie_length = 4
-    to_predict = 1
+    to_predict = 2
     name = "model-dev"
     compile_model = True
 
     # Load data
-    train_set, dev_set, test_set, timestamps, Yminmax = load_data(
-        path, serie_length, to_predict, overlap=False)
+    X, Y, timestamps, Yminmax = load_data(path, serie_length, to_predict)
+    train_set, dev_set, test_set, timestamps = split_data(X, Y, timestamps, 0.8, 0.1)
 
     # Instanciate model
     m = MartyModel(serie_length, to_predict, name)
