@@ -103,7 +103,7 @@ def split_data(X, Y, timestamps, ratio_train_dev=0.8, ratio_dev_test=0.1):
 
 
 
-class MartyModel(object):
+class KerasModel(object):
 
     def __init__(self, serie_length, to_predict, name="model-dev"):
         self.serie_length = serie_length
@@ -199,7 +199,7 @@ if __name__ == "__main__":
     train_set, dev_set, test_set, timestamps = split_data(X, Y, timestamps, 0.8, 0.1)
 
     # Instanciate model
-    m = MartyModel(serie_length, to_predict, name)
+    m = KerasModel(serie_length, to_predict, name)
     m_linear = LinearModel(serie_length, to_predict)
 
     # Fit data
@@ -212,7 +212,7 @@ if __name__ == "__main__":
     Y_linear_pred = m_linear.predict(X_test)
 
     print("LinearRegression :", m_linear.score(X_test, Y_test))
-    print("MartyModel :", m.score(X_test, Y_test))
+    print("KerasModel :", m.score(X_test, Y_test))
 
     # Plot
     plt.plot(timestamps, np.interp(Y_test, (0,1), Yminmax),
