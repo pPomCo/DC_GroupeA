@@ -1,0 +1,408 @@
+
+Evaluate ilot1.co2.3600.2.1.LSTM64-ReLU16-Sigm1
+Accuracy confusion matrix (confort)
+[[  0   1   1   0   1   0]
+ [  0   0   0   1   0   1]
+ [  0   0   3   2   2   2]
+ [  0   0   1   4   5   2]
+ [  0   0   0   2  18   8]
+ [  0   0   0   1  14 555]]
+
+Evaluate ilot1.co2.3600.2.1.LinearRegression
+Accuracy confusion matrix (confort)
+[[  0   1   1   0   1   0]
+ [  0   0   0   1   0   1]
+ [  0   0   2   1   4   2]
+ [  0   0   1   1   7   3]
+ [  0   0   0   2   9  17]
+ [  0   0   0   1   3 566]]
+
+Evaluate ilot1.co2.300.2.1.LSTM64-ReLU16-Sigm1
+Accuracy confusion matrix (confort)
+[[  48    2    0    0    0    0]
+ [   8   27    1    0    0    0]
+ [   1    3   57   11    0    0]
+ [   0    0    5  125   23    2]
+ [   0    0    0    9  303   38]
+ [   0    0    0    0   12 6800]]
+
+Evaluate ilot1.co2.300.2.1.LinearRegression
+Accuracy confusion matrix (confort)
+[[  45    5    0    0    0    0]
+ [   7   27    2    0    0    0]
+ [   1    2   57   12    0    0]
+ [   0    0    7  130   16    2]
+ [   0    0    0   14  309   27]
+ [   0    0    0    0   24 6788]]
+
+Evaluate ilot1.hum.3600.2.1.LSTM64-ReLU16-Sigm1
+Accuracy confusion matrix (confort)
+[[  0   8   0   0   0]
+ [  0 160   9   0   0]
+ [  0  26 125   8   1]
+ [  0   1  21  67   9]
+ [  0   0   1  29 159]]
+
+Evaluate ilot1.hum.3600.2.1.LinearRegression
+Accuracy confusion matrix (confort)
+[[  4   4   0   0   0]
+ [  2 156  11   0   0]
+ [  0  11 133  15   1]
+ [  0   0  12  74  12]
+ [  0   0   1  23 165]]
+
+Evaluate ilot1.hum.300.2.1.LSTM64-ReLU16-Sigm1
+Accuracy confusion matrix (confort)
+[[  15  578    0    0    0]
+ [   0 1504   57    0    0]
+ [   0   67 1670  102    0]
+ [   0    0   25 1122   39]
+ [   0    0    0   51 2245]]
+
+Evaluate ilot1.hum.300.2.1.LinearRegression
+Accuracy confusion matrix (confort)
+[[  22  571    0    0    0]
+ [   2 1483   76    0    0]
+ [   0   30 1729   80    0]
+ [   0    0   31 1079   76]
+ [   0    0    0   31 2265]]
+
+Evaluate ilot1.lum.3600.2.1.LSTM64-ReLU16-Sigm1
+Accuracy confusion matrix (confort)
+[[349  27   2   1   1   6]
+ [ 14  39  16   2   1   4]
+ [  0   7   8   3   2  21]
+ [  0   2   3   3   1  35]
+ [  0   0   5   2   4   8]
+ [  0   4   2   4   5  44]]
+
+Evaluate ilot1.lum.3600.2.1.LinearRegression
+Accuracy confusion matrix (confort)
+[[359  19   1   1   0   6]
+ [ 19  44   7   2   1   3]
+ [  2  10   8   4   0  17]
+ [  0   2   6   6   4  26]
+ [  0   4   4   4   0   7]
+ [  0   5   7   7   6  34]]
+
+Evaluate ilot1.lum.300.2.1.LSTM64-ReLU16-Sigm1
+Accuracy confusion matrix (confort)
+[[4643   46    2    1    0    1]
+ [ 113  630   95   14    7   15]
+ [   3   60  199  543   60   43]
+ [   1    9   44  126   86   54]
+ [   0    3   20   51   64   59]
+ [   1    7   13   50   97  322]]
+
+Evaluate ilot1.lum.300.2.1.LinearRegression
+Accuracy confusion matrix (confort)
+[[4620   70    2    0    0    1]
+ [  77  697   69   11    6   14]
+ [   2   76  186  575   28   41]
+ [   1   10   48  163   41   57]
+ [   0    5   18   64   49   61]
+ [   1    9   14   73   66  327]]
+
+Evaluate ilot1.temp.3600.2.1.LSTM64-ReLU16-Sigm1
+Accuracy confusion matrix (confort)
+[[119   5   0   0   0   0]
+ [  7  57  15   0   0   0]
+ [  0  13  58  12   1   0]
+ [  0   2   7  92   8   0]
+ [  0   0   1  25  74  17]
+ [  0   0   0   1  23  88]]
+
+Evaluate ilot1.temp.3600.2.1.LinearRegression
+Accuracy confusion matrix (confort)
+[[109  14   1   0   0   0]
+ [  3  61  15   0   0   0]
+ [  0  10  60  13   1   0]
+ [  0   2  10  81  16   0]
+ [  0   0   1  22  76  18]
+ [  0   0   0   1  23  88]]
+
+Evaluate ilot1.temp.300.2.1.LSTM64-ReLU16-Sigm1
+Accuracy confusion matrix (confort)
+[[1325   25    0    0    0    0]
+ [  75  980   33    0    0    0]
+ [   0   87  828   46    0    0]
+ [   0    0   75 1324   71    1]
+ [   0    0    0   34 1070   93]
+ [   0    0    0    0   67 1347]]
+
+Evaluate ilot1.temp.300.2.1.LinearRegression
+Accuracy confusion matrix (confort)
+[[1312   38    0    0    0    0]
+ [  39 1008   41    0    0    0]
+ [   0   61  855   45    0    0]
+ [   0    0   60 1349   61    1]
+ [   0    0    0   52 1079   66]
+ [   0    0    0    0   74 1340]]
+
+Evaluate ilot1.co2.3600.16.4.LSTM64-ReLU16-Sigm1
+Accuracy confusion matrix (confort)
+[[  0   0   5]
+ [  0   0  43]
+ [  0   0 569]]
+
+Evaluate ilot1.co2.3600.16.4.LinearRegression
+Accuracy confusion matrix (confort)
+[[  0   0   5]
+ [  0   0  43]
+ [  0   0 569]]
+
+Evaluate ilot1.co2.300.16.4.LSTM64-ReLU16-Sigm1
+Accuracy confusion matrix (confort)
+[[   0    0    0    0    4   25]
+ [   0    0    0    0    5   34]
+ [   0    0    0    0    6   65]
+ [   0    0    0    0   19  132]
+ [   0    0    0    0   34  359]
+ [   0    0    0    0   86 6699]]
+
+Evaluate ilot1.co2.300.16.4.LinearRegression
+Accuracy confusion matrix (confort)
+[[   0    0    0    0    5   24]
+ [   0    0    0    0    3   36]
+ [   0    0    0    2    6   63]
+ [   0    0    0    3   18  130]
+ [   0    0    0    2   30  361]
+ [   0    0    0    4   78 6703]]
+
+Evaluate ilot1.hum.3600.16.4.LSTM64-ReLU16-Sigm1
+Accuracy confusion matrix (confort)
+[[  0   0   0   0   2]
+ [  0   0 101  20  25]
+ [  0   0  84  36  52]
+ [  0   0  27  18  36]
+ [  0   0  50  29 137]]
+
+Evaluate ilot1.hum.3600.16.4.LinearRegression
+Accuracy confusion matrix (confort)
+[[  0   0   0   0   2]
+ [  0  21  77  23  25]
+ [  0  13  64  36  59]
+ [  0   3  26  14  38]
+ [  0   7  43  38 128]]
+
+Evaluate ilot1.hum.300.16.4.LSTM64-ReLU16-Sigm1
+Accuracy confusion matrix (confort)
+[[   7  216   17    2    0]
+ [   7 1220  548   55   37]
+ [   1  251 1041  384  200]
+ [   0   48  232  367  548]
+ [   0   19  150  297 1822]]
+
+Evaluate ilot1.hum.300.16.4.LinearRegression
+Accuracy confusion matrix (confort)
+[[   7  219   14    2    0]
+ [  18 1231  519   71   28]
+ [   1  281 1030  386  179]
+ [   1   45  250  408  491]
+ [   1   21  152  341 1773]]
+
+Evaluate ilot1.lum.3600.16.4.LSTM64-ReLU16-Sigm1
+Accuracy confusion matrix (confort)
+[[204  99   6   1   0   0]
+ [ 42 127  15   9   0   0]
+ [  2  30   9   2   0   0]
+ [  0   7   9   2   2   0]
+ [  0   3   4   6   2   0]
+ [  0  10   7  13   8   0]]
+
+Evaluate ilot1.lum.3600.16.4.LinearRegression
+Accuracy confusion matrix (confort)
+[[231  71   7   1   0   0]
+ [ 56 121   8   4   4   0]
+ [  3  34   4   0   2   0]
+ [  1   5   5   3   6   0]
+ [  2   2   3   2   6   0]
+ [  2   7   6   9  14   0]]
+
+Evaluate ilot1.lum.300.16.4.LSTM64-ReLU16-Sigm1
+Accuracy confusion matrix (confort)
+[[3738  408  375   44   30   68]
+ [ 539  153  113   15   15   56]
+ [ 161   98  172   22   23  120]
+ [ 145   58  107   19   30  124]
+ [  72   41   53    8   10   61]
+ [ 192  113  132   31   19  111]]
+
+Evaluate ilot1.lum.300.16.4.LinearRegression
+Accuracy confusion matrix (confort)
+[[3392  755  374   41   38   63]
+ [ 479  298   91    9    5    9]
+ [ 144  204  190   14   16   28]
+ [ 118  148  123   28   27   39]
+ [  67   91   56    7    4   20]
+ [ 170  211  148   25   15   29]]
+
+Evaluate ilot1.temp.3600.16.4.LSTM64-ReLU16-Sigm1
+Accuracy confusion matrix (confort)
+[[69 23 13  2  1  1]
+ [16  8 19 21  0  3]
+ [ 6 11 30 21  9  3]
+ [ 2 12 26 40 20 26]
+ [ 0  6 12 41 25 38]
+ [ 0  0  2 23 33 55]]
+
+Evaluate ilot1.temp.3600.16.4.LinearRegression
+Accuracy confusion matrix (confort)
+[[50 31 22  4  1  1]
+ [13  9 13 24  6  2]
+ [ 6 12 18 28  7  9]
+ [ 9  4 15 43 21 34]
+ [ 1  4  8 38 32 39]
+ [ 0  0  1 11 38 63]]
+
+Evaluate ilot1.temp.300.16.4.LSTM64-ReLU16-Sigm1
+Accuracy confusion matrix (confort)
+[[998 213  75  23   2   0]
+ [137 249 571 128  21   4]
+ [ 43 119 311 396  72  29]
+ [ 16  69 211 692 305 157]
+ [  7  19  79 269 451 389]
+ [  2  18 101 196 369 733]]
+
+Evaluate ilot1.temp.300.16.4.LinearRegression
+Accuracy confusion matrix (confort)
+[[837 347  91  36   0   0]
+ [ 70 445 439 128  27   1]
+ [ 26 123 321 374  95  31]
+ [ 10  80 197 569 424 170]
+ [  2  21  75 263 392 461]
+ [  2  22  86 183 345 781]]
+
+Evaluate ilot1.co2.3600.32.16.LSTM64-ReLU16-Sigm1
+Accuracy confusion matrix (confort)
+[[  0   0   1]
+ [  0   0  28]
+ [  0   0 543]]
+
+Evaluate ilot1.co2.3600.32.16.LinearRegression
+Accuracy confusion matrix (confort)
+[[  0   0   1]
+ [  0   0  28]
+ [  0   0 543]]
+
+Evaluate ilot1.co2.300.32.16.LSTM64-ReLU16-Sigm1
+Accuracy confusion matrix (confort)
+[[   0    0    0    0    0   18]
+ [   0    0    0    0    0   19]
+ [   0    0    0    0    0   95]
+ [   0    0    0    0    0  166]
+ [   0    0    0    0    0  405]
+ [   0    0    0    0    0 6718]]
+
+Evaluate ilot1.co2.300.32.16.LinearRegression
+Accuracy confusion matrix (confort)
+[[   0    0    0    0    0   18]
+ [   0    0    0    0    1   18]
+ [   0    0    0    0    5   90]
+ [   0    0    0    0    0  166]
+ [   0    0    0    0    2  403]
+ [   0    0    0    3   62 6653]]
+
+Evaluate ilot1.hum.3600.32.16.LSTM64-ReLU16-Sigm1
+Accuracy confusion matrix (confort)
+[[  0  61  91   8]
+ [  0  43 109   9]
+ [  0  18  50   2]
+ [  0  41 105  35]]
+
+Evaluate ilot1.hum.3600.32.16.LinearRegression
+Accuracy confusion matrix (confort)
+[[ 0 71 60 29]
+ [ 0 58 60 43]
+ [ 0 27 25 18]
+ [ 0 47 65 69]]
+
+Evaluate ilot1.hum.300.32.16.LSTM64-ReLU16-Sigm1
+Accuracy confusion matrix (confort)
+[[   0   20   33   13   29]
+ [   0  523  770  375  366]
+ [   0  217  687  361  543]
+ [   0   71  317  246  613]
+ [   0  104  461  477 1198]]
+
+Evaluate ilot1.hum.300.32.16.LinearRegression
+Accuracy confusion matrix (confort)
+[[   0   21   35    8   31]
+ [   0  523  782  372  357]
+ [   0  193  707  331  577]
+ [   0   67  354  230  596]
+ [   0   90  467  425 1258]]
+
+Evaluate ilot1.lum.3600.32.16.LSTM64-ReLU16-Sigm1
+Accuracy confusion matrix (confort)
+[[154  90   3   0   0   0]
+ [ 29 142  30   0   0   0]
+ [  2  39  15   3   0   0]
+ [  0  20  12   0   0   0]
+ [  0  12   5   3   0   0]
+ [  0   8   5   0   0   0]]
+
+Evaluate ilot1.lum.3600.32.16.LinearRegression
+Accuracy confusion matrix (confort)
+[[157  87   3   0   0   0]
+ [ 35 141  23   2   0   0]
+ [  4  39  11   5   0   0]
+ [  1  20  11   0   0   0]
+ [  0  13   4   3   0   0]
+ [  0   8   4   1   0   0]]
+
+Evaluate ilot1.lum.300.32.16.LSTM64-ReLU16-Sigm1
+Accuracy confusion matrix (confort)
+[[2027 2323  154   24   13   31]
+ [ 127  544  134   34   39   58]
+ [  50  215   92   31   22  108]
+ [  21  169  125   25   27  135]
+ [  22  132   53   11    8   47]
+ [  35  297  121   26   27  124]]
+
+Evaluate ilot1.lum.300.32.16.LinearRegression
+Accuracy confusion matrix (confort)
+[[3572  741  186   25   18   30]
+ [ 364  295  182   23   26   46]
+ [ 166  129   96   22   17   88]
+ [ 111  109  119   22   34  107]
+ [ 106   59   57    9   12   30]
+ [ 232  136  124   24   26   88]]
+
+Evaluate ilot1.temp.3600.32.16.LSTM64-ReLU16-Sigm1
+Accuracy confusion matrix (confort)
+[[44  7  4 23 11 32]
+ [ 6  1  0 25  7 11]
+ [ 0  2  1 60 16 11]
+ [ 0  0  0 83 35 14]
+ [ 0  0  0 59 33  9]
+ [ 0  0  2 41 24 11]]
+
+Evaluate ilot1.temp.3600.32.16.LinearRegression
+Accuracy confusion matrix (confort)
+[[ 2  9 19 22 42 27]
+ [ 5 10  3  9  8 15]
+ [ 0 10 13 26 18 23]
+ [ 4  7  6 43 41 31]
+ [ 0  3  5 26 37 30]
+ [ 0  0  3 21 34 20]]
+
+Evaluate ilot1.temp.300.32.16.LSTM64-ReLU16-Sigm1
+Accuracy confusion matrix (confort)
+[[855 189 120 113  27  35]
+ [116 158 327 349  53  51]
+ [119 117 177 361  95 115]
+ [109 140 227 514 175 313]
+ [  7  51 149 381 236 369]
+ [  3  29  79 387 284 598]]
+
+Evaluate ilot1.temp.300.32.16.LinearRegression
+Accuracy confusion matrix (confort)
+[[562 329 248 139  31  30]
+ [ 59 153 359 296 129  58]
+ [ 52 118 231 279 170 134]
+ [ 57 123 276 389 310 323]
+ [  1  49 115 287 314 427]
+ [  0  11  66 267 417 619]]
+
+Evaluate all.co2.3600.2.1.LSTM64-ReLU16-Sigm1

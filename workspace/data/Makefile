@@ -102,7 +102,7 @@ $(ODIR)/%.csv: | $(PARTS) $(ODIR)
 	$(eval capt = $(word 2, $(subst ., ,$*)))
 	$(eval intv = $(word 3, $(subst ., ,$*)))
 	echo -n "timestamp" > $@
-	python3 preproc.py $(PDIR)/$(ilot).$(capt).csv $(intv) $(if $(filter-out all, $(capt)), $(capt)) >> $@
+	python3 preproc.py $(PDIR)/$(ilot).$(capt).csv $(intv) $(if $(filter-out all, $(capt)), $(capt)) | grep -v ';;' >> $@
 	
 
 

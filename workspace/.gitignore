@@ -1,8 +1,12 @@
 *.csv
 __pycache__
+Model/eval_output/
 
 # Except example data
 !data/output/*.csv
 
 # Except example data (compatibility Model/)
 !Model/Formatage/parts/*.csv
+
+# Except evaluation results
+!Model/evaluation/*
