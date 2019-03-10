@@ -9,4 +9,4 @@ Model/eval_output/
 !Model/Formatage/parts/*.csv
 
 # Except evaluation results
-!Model/evaluation/*
+!Model/evaluation.csv
