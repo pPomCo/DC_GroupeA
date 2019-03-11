@@ -129,7 +129,8 @@ class KerasModel(object):
             # Recusive way to define rnn
             neural_network_input = kl.Input(X_train[0].shape)
 
-            recursive_neural_network = kl.LSTM(64)(neural_network_input)
+            recursive_neural_network = kl.GRU(64)(neural_network_input)
+            # recursive_neural_network = kl.LSTM(64)(neural_network_input) # LSTM : worse prediction than GRU in that case
             # recursive_neural_network = kl.CuDNNGRU(64)(neural_network_input) # for nvidia (way way faster)
 
             dense = kl.Dense(16, activation = "relu")(recursive_neural_network)
