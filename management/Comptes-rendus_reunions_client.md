@@ -40,3 +40,48 @@ Pierre est arrivé avec 30 minutes de retard (bouchons).
   - [http://karpathy.github.io/2015/05/21/rnn-effectiveness/](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)
   - [http://colah.github.io/posts/2015-08-Understanding-LSTMs/](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
 
+
+---
+
+## Lundi 11/02 : RDV (IRIT)
+
+Contact : 11/02
+Horaires : 10h-10h20
+
+Rendez-vous impromptu
+
+### Confirmation / redéfinition des exigences
+
+ - Prédire la fonction de confort :
+    - Par régression (scikit-learn)
+    - Avec RNN (keras)
+ - Rapport :
+    - Modèles
+    - Résultats
+    - Limites
+    - Erreurs
+
+La prédiction de la consommation est abandonnée (pas de données).
+
+### Conseils
+
+ - Prendre en main keras :
+    - Faire tourner des exemples du net (mots-clés : régression multivarié RNN m-list)
+    - Comprendre comment formater les données (avant tout apprentissage)
+ - Essayer aussi la classification (discrétiser par intervalles)
+ - Post-processing (conversion régression/classification)
+ - Identifier les valeurs de la fonction de confort :
+    - discret/continu
+    - domaine de valeurs (à priori entre 0 et 5)
+    - **-> Envoyer le nombre de valeur par mél, pour conseils supplémentaires**
+
+### Divers
+
+M. Pellegrini n'étant que peu disponible, il a nommé un AMOA :
+
+	M. Léo CANCES
+	leo.cances@irit.fr
+
+Nous enverrons les courriels aux deux adresses (MOA et AMOA)
+
+---
