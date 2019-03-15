@@ -310,6 +310,22 @@ L'application de toutes les exigences doit être validée par consensus pour êt
 Une fois qu'une tâche (représentée par une carte Trello) est placée dans la colonne "A valider", elle est sujette à examen par les autres membres du groupe. En l'absence d'opposition forte, une discussion informelle (en personnes) (ou l'expression d'une approbation sur Trello) permet de confirmer la validité de la tâche.
 En l'absence de validation une fois l'échéance arrivée, la tâche peut tout de même être "finie" si elle est jugée d'une qualité suffisante ("good enough") mais est néanmoins ajoutée aux tâches de l'itération suivante (pour la finir "pour de vrai").
 
+### Amélioration continue
+
+Deux stratégies permettent l'amélioration continue, par le contrôle et la gestion du projet :
+
+ - Réunions de début et de fin d'itération, principalement la rétrospective qui permet d'identifier les problèmes techniques et liés à l'organisation
+ - Réunions hors-itération, à l'initiative de n'importe quel membre, pour la gestion de problèmes particuliers.
+ 
+Dans la mesure du possible, des solutions sont trouvées en réunion et testées lors de l'itération suivante.
+
+Historique des problèmes importants, et solutions retenues : 
+
+ - Perte de temps en réunion -> ordre du jour + maître de cérémonie (16 janvier)
+ - Contact difficile avec M. Pellegrini -> RDV "forcé", proposition de AMOA (11 février)
+ - Tâches non effectuées en fin d'itération -> meilleur découpage des tâches, assignation d'un référent (contrôle et aide) (21 février)
+ 
+
 ---
 
 ## PM Communications
@@ -476,6 +492,8 @@ la cohérence entre ceux-ci, lui faire des comptes rendus de ce qu'on a fait (ou
 
 
 ![Matrice RACI TD](images/RACI_TD.png)  
+
+*Note : la matrice générale est dans le PM Ressources Humaines*
 
 ---
 
