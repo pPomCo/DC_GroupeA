@@ -495,6 +495,16 @@ la cohérence entre ceux-ci, lui faire des comptes rendus de ce qu'on a fait (ou
 
 *Note : la matrice générale est dans le PM Ressources Humaines*
 
+### Gestion des nouvelles PP
+
+Dans l'éventualité de la découverte d'une nouvelle Partie Prenante, les modifications du PMP sont les suivantes : 
+  - PM PP : ajout de la PP (nom, rôle, canal de communication)
+  - PM Communication : protocole de communication avec la PP
+  - PM Contenu : recueil des exigences, mis à jour du protocole de gestion
+
+Tous les PM doivent cependant être analysés afin de détecter d'éventuelles mises à jour (ex: PM Risques mis à jour avec l'arrivée d'un expert (opportunité)).
+
+
 ---
 
 ## PM Ressources Humaines
