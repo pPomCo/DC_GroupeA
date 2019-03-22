@@ -8,11 +8,11 @@ Ce document présente notre plan de gestion, c'est à dire les processus et info
 - [Délais](#pm-délais)
 - [Coûts](#pm-coûts)
 - [Qualité](#pm-qualité)
-- [Ressources Humaines](#pm-ressources-humaines)
 - [Communications](#pm-communications)
 - [Risques](#pm-risques)
 - [Approvisionnements](#pm-approvisionnements)
 - [Parties Prenantes](#pm-parties-prenantes)
+- [Ressources Humaines](#pm-ressources-humaines)
 
 ---
 
@@ -120,6 +120,14 @@ Pour chaque produit liste (TD, compte-rendu de rendez-vous) :
 
 
 ### Recueil des exigences
+
+#### Protocole de recueil des exigences
+
+Les exigences sont identifiées en RDV (RDV client, RDV SQJ en TD, etc.), ou informellement en discutant avec les autres groupes d'étudiants.
+
+Elles sont ensuite validées en réunion, puis ajoutées comme des cartes sur le [Trello](https://trello.com/b/HIFU6ivc/ue-projet)
+
+#### Exigences recueillies
 
 TD / SJQ
 
@@ -305,85 +313,33 @@ Exigences qualités d'origine interne, réunions et bonnes pratiques (notée de 
 
 L'application de toutes les exigences doit être validée par consensus pour être considérée conforme et fonctionnelle.
 
----
+### Définition de fini
 
-## PM Ressources Humaines
+Une fois qu'une tâche (représentée par une carte Trello) est placée dans la colonne "A valider", elle est sujette à examen par les autres membres du groupe. En l'absence d'opposition forte, une discussion informelle (en personnes) (ou l'expression d'une approbation sur Trello) permet de confirmer la validité de la tâche.
+En l'absence de validation une fois l'échéance arrivée, la tâche peut tout de même être "finie" si elle est jugée d'une qualité suffisante ("good enough") mais est néanmoins ajoutée aux tâches de l'itération suivante (pour la finir "pour de vrai").
 
-Les membres des diverses Parties Prenantes sont des personnes, et ont par conséquent des rôles, des responsabilités, des compétences. Il est important de les prendre en compte pour mener à bien le projet.
-Aucune exigence ne concernant les Ressources Humaines n'a été émise par quelque Partie Prenante que ce soit.
+### Suivi des bugs et "issues"
 
-### Protocoles
+Le produit à réaliser est un rapport de *"recherche"* et ne pourra pas présenter de bugs. 
 
-#### Constitution de l'équipe
-Nous n'avons pas le choix de l'équipe, par conséquent aucun protocole n'est défini.
+Les éventuels problèmes (*issues*) sont identifiés en réunion et lors de la revue avec le client.  
+Les solutions sont ensuite trouvées en réunion, et ajoutées comme une carte sur le [Trello](https://trello.com/b/HIFU6ivc/ue-projet)
 
-Disponibilités des ressources :
-- MOE : totale
-- M1-M2 : disponible (probablement pas durant les vacances scolaires), mais peut mettre du temps à répondre (si demande de travail)
-- MOA & référents : disponible (probablement pas le w-e), en réunion si planifiée et convéniente
+### Amélioration continue
 
-#### Développement de l'équipe
-Il est nécessaire d'identifier les compétences nécessaires et non-présentes pour chaque tâche, afin d'être en mesure de pallier le manque. La stratégie d'évolution des compétences n'est pas définie, car dépendante de la compétence à faire progresser (on considérera probablement les ressources pédagogiques de l'UPS, la BU et Internet).
+Deux stratégies permettent l'amélioration continue, par le contrôle et la gestion du projet :
 
-Il est possible que les interractions entre les ressources soient améliorables (mesurées par la performance de l'équipe). Il semble très difficile d'établir un protocole concernant l'évolution des interractions, et ici l'intérêt est faible. On fera surtout attention à ce que certains membres de l'équipe ne s'imposent/s'effacent pas trop fréquemment quand à la prise de décisions.
+ - Réunions de début et de fin d'itération, principalement la rétrospective qui permet d'identifier les problèmes techniques et liés à l'organisation
+ - Réunions hors-itération, à l'initiative de n'importe quel membre, pour la gestion de problèmes particuliers.
+ 
+Dans la mesure du possible, des solutions sont trouvées en réunion et testées lors de l'itération suivante.
 
-#### Direction de l'équipe
-Afin de pouvoir évaluer l'efficacité des mesures prises et ajuster la direction de l'équipe, il est nécessaire d'avoir une métrique de performance, actuellement non-définie.
-La gestion des problèmes divers (dans le cadre du "travail" et qui concernent des RH) est très difficile à définir. Nous avons décidé de tous veiller au maintien d'un bon environnement de travail.
+Historique des problèmes importants, et solutions retenues : 
 
-### Rôles
-  - Jérémie Huteau, Quentin Marty, Pierre Pomeret-Coquot : MOE
-  - Thomas Pellegrini : MOA et enseignant référent
-  - Raquel Oliveira : SJQ
-
-### Responsabilités
-  - MOE : ~100h de travail chacun
-  - Jérémie : Chef de projet
-
-### Compétences
-  - Thomas Pellegrini : apprentissage
-  - Jérémie, Quentin : bases en apprentissage (Pierre en progrès)
-  - Enseignants UPS : apprentissage, mathématiques, traitement de données, etc...
-
-### Matrice RACI
-
-| Domaine | Tâche | MOE | MOA | Référents | SJQ | Groupes Interpromo
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| Intégration | | | | | |
-| | PMP | R,A | | | C,I | |
-| | Charte | R | A | | | |
-| | Direction | R,A | | | C | |
-| | Maîtrise | R,A | C,I | | C | |
-| | Clotûre | R,A | C,I | | | |
-| Contenu | | | | | | |
-| | Exigences	| R,A	| C,I	| C	| C	| C |
-| | SDP	| R,A	| C	| C | I	|	|
-| | Recette	| R,A	| C,I	| C | |	|
-| | Soutenance | R,A	| | | I |	|
-| | Fiches av. IP	| R,A	| | I | |	|
-| | Maîtrise | R,A | | | | |
-| Délais | | | | | | |
-| | Échéances TD	| R	| |	| A,C |	|
-| | Échéances R&D	| R	| A,C | | | C	|
-| | Maîtrise | R,A | I || I | |
-| Qualité | | | | | | |
-| | Exigences	| R,A | C | | C | C |
-| | Solutions | R,A | | C | C | |
-| RH | | | | | | |
-| | PM | R,A | | | | |
-| | Développement | R,A | | C | | |
-| | Direction | R,A | | | | |
-| Communications | | | | | | |
-| | Exigences | R,A | C,I | C | C | C |
-| | Gestion | R,A | | | | |
-| Risques | | | | | | |
-| | Identification	| R,A | | | C | |
-| | Solutions	| R,A | | | C | |
-| PPs | | | | | | |
-| | Gestion	| R,A | | | | |
-| | Maîtrise | R,A | | | C | |
-
-Sachant que le SJQ a accès à tous nos documents de gestion, ils sont automatiquement informé. Les Plans de Management de chaque domaine font partie du PMP, et sont donc R,A pour la MOE.
+ - Perte de temps en réunion -> ordre du jour + maître de cérémonie (16 janvier)
+ - Contact difficile avec M. Pellegrini -> RDV "forcé", proposition de AMOA (11 février)
+ - Tâches non effectuées en fin d'itération -> meilleur découpage des tâches, assignation d'un référent (contrôle et aide) (21 février)
+ 
 
 ---
 
@@ -396,12 +352,16 @@ Les communications en internes doivent respecter les formats définis ci-après,
 
 Les réponses aux communications seront communiquées au groupe.
 
+La communication avec le SJQ se fera uniquement en TD, sur les horaires prévus pour l'UE. En effet, nous avons un TD chaque semaine, ce qui devrait être suffisant.  
+Nous serons donc tous présents.
+
 ### Exigences des Parties Prenantes et modalités
 
   - MOE : clarté, réactivité (trello, mail, irl)
     - https://trello.com/b/HIFU6ivc/ue-projet
-  - SJQ : accès aux documents de management (drive/git)
+  - SJQ : accès aux documents de management (git et Trello)
     - https://github.com/pPomCo/DC_GroupeA/tree/iter1/management
+    - https://trello.com/b/HIFU6ivc/ue-projet
   - MOA : RAS
     - thomas.pellegrini@irit.fr
   - Enseignants référents
@@ -545,6 +505,101 @@ la cohérence entre ceux-ci, lui faire des comptes rendus de ce qu'on a fait (ou
 
 - Enseignant DC et Communauté Scientifique : pas besoin de plus d'implication de leur part
 
-### Protocoles de gestion et de contrôle
+### Matrice RACI des PP
 
-**Pas de protocole plus précis que la matrice pouvoir/intêret encore défini**
+*Matrice fournie en TD*
+
+
+![Matrice RACI TD](images/RACI_TD.png)  
+
+*Note : la matrice générale est dans le PM Ressources Humaines*
+
+### Gestion des nouvelles PP
+
+Dans l'éventualité de la découverte d'une nouvelle Partie Prenante, les modifications du PMP sont les suivantes : 
+  - PM PP : ajout de la PP (nom, rôle, canal de communication)
+  - PM Communication : protocole de communication avec la PP
+  - PM Contenu : recueil des exigences, mis à jour du protocole de gestion
+
+Tous les PM doivent cependant être analysés afin de détecter d'éventuelles mises à jour (ex: PM Risques mis à jour avec l'arrivée d'un expert (opportunité)).
+
+
+---
+
+## PM Ressources Humaines
+
+Les membres des diverses Parties Prenantes sont des personnes, et ont par conséquent des rôles, des responsabilités, des compétences. Il est important de les prendre en compte pour mener à bien le projet.
+Aucune exigence ne concernant les Ressources Humaines n'a été émise par quelque Partie Prenante que ce soit.
+
+### Protocoles
+
+#### Constitution de l'équipe
+Nous n'avons pas le choix de l'équipe, par conséquent aucun protocole n'est défini.
+
+Disponibilités des ressources :
+- MOE : totale
+- M1-M2 : disponible (probablement pas durant les vacances scolaires), mais peut mettre du temps à répondre (si demande de travail)
+- MOA & référents : disponible (probablement pas le w-e), en réunion si planifiée et convéniente
+
+#### Développement de l'équipe
+Il est nécessaire d'identifier les compétences nécessaires et non-présentes pour chaque tâche, afin d'être en mesure de pallier le manque. La stratégie d'évolution des compétences n'est pas définie, car dépendante de la compétence à faire progresser (on considérera probablement les ressources pédagogiques de l'UPS, la BU et Internet).
+
+Il est possible que les interractions entre les ressources soient améliorables (mesurées par la performance de l'équipe). Il semble très difficile d'établir un protocole concernant l'évolution des interractions, et ici l'intérêt est faible. On fera surtout attention à ce que certains membres de l'équipe ne s'imposent/s'effacent pas trop fréquemment quand à la prise de décisions.
+
+#### Direction de l'équipe
+Afin de pouvoir évaluer l'efficacité des mesures prises et ajuster la direction de l'équipe, il est nécessaire d'avoir une métrique de performance, actuellement non-définie.
+La gestion des problèmes divers (dans le cadre du "travail" et qui concernent des RH) est très difficile à définir. Nous avons décidé de tous veiller au maintien d'un bon environnement de travail.
+
+### Rôles
+  - Jérémie Huteau, Quentin Marty, Pierre Pomeret-Coquot : MOE
+  - Thomas Pellegrini : MOA et enseignant référent
+  - Raquel Oliveira : SJQ
+
+### Responsabilités
+  - MOE : ~100h de travail chacun
+  - Jérémie : Chef de projet
+
+### Compétences
+  - Thomas Pellegrini : apprentissage
+  - Jérémie, Quentin : bases en apprentissage (Pierre en progrès)
+  - Enseignants UPS : apprentissage, mathématiques, traitement de données, etc...
+
+### Matrice RACI
+
+| Domaine | Tâche | MOE | MOA | Référents | SJQ | Groupes Interpromo
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| Intégration | | | | | |
+| | PMP | R,A | | | C,I | |
+| | Charte | R | A | | | |
+| | Direction | R,A | | | C | |
+| | Maîtrise | R,A | C,I | | C | |
+| | Clotûre | R,A | C,I | | | |
+| Contenu | | | | | | |
+| | Exigences	| R,A	| C,I	| C	| C	| C |
+| | SDP	| R,A	| C	| C | I	|	|
+| | Recette	| R,A	| C,I	| C | |	|
+| | Soutenance | R,A	| | | I |	|
+| | Fiches av. IP	| R,A	| | I | |	|
+| | Maîtrise | R,A | | | | |
+| Délais | | | | | | |
+| | Échéances TD	| R	| |	| A,C |	|
+| | Échéances R&D	| R	| A,C | | | C	|
+| | Maîtrise | R,A | I || I | |
+| Qualité | | | | | | |
+| | Exigences	| R,A | C | | C | C |
+| | Solutions | R,A | | C | C | |
+| RH | | | | | | |
+| | PM | R,A | | | | |
+| | Développement | R,A | | C | | |
+| | Direction | R,A | | | | |
+| Communications | | | | | | |
+| | Exigences | R,A | C,I | C | C | C |
+| | Gestion | R,A | | | | |
+| Risques | | | | | | |
+| | Identification	| R,A | | | C | |
+| | Solutions	| R,A | | | C | |
+| PPs | | | | | | |
+| | Gestion	| R,A | | | | |
+| | Maîtrise | R,A | | | C | |
+
+Sachant que le SJQ a accès à tous nos documents de gestion, ils sont automatiquement informé. Les Plans de Management de chaque domaine font partie du PMP, et sont donc R,A pour la MOE.

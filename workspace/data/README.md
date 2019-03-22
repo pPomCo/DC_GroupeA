@@ -1,10 +1,13 @@
 # workspace/data/
 
-Mise en forme des données
+Mise en forme des données :
+
+ - le Makefile produit maintenant quelques exemples de training-set annotés
+ - le script *preproc.py* permet plus de liberté
 
 ## Sélection des lignes
 
-Avec le *Makefile* on peut créer des fichiers csv correspondants aux selections :
+Avec le *Makefile* on peut créer des fichiers csv correspondants aux selections/projections :
 
  - sur l'ilot / les ilots
  - sur le capteur / tous les capteurs
@@ -16,7 +19,7 @@ pour qu'elle soit enregistrée.
 
 Pour cela :
 
-	# Créer la base intermédiaire et les partitions standards
+	# Créer la base intermédiaire et les partitions standards et les exemples de training-set
 	make
 	
 	# Créer la base allégée
@@ -27,6 +30,9 @@ Pour cela :
 	
 	# Créer une sélection sur les ilots *ouest* et *n57*, pour tous les capteurs
 	make parts/ouest-n57.all.csv
+	
+	# Créer les exemples de training-set
+	make samples
 
 
 ---

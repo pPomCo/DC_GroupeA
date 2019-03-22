@@ -10,7 +10,7 @@ Pierre est arrivé avec 30 minutes de retard (bouchons).
 ### Objectif du projet :
 
 - prédiction des valeurs futures des capteurs
-- prédiction d'une éventuelle fonction de confort
+- prédiction d'une éventuelle fonction de conforthttps://github.com/pPomCo/DC_GroupeA/pull/6/conflicts
 - prédiction d'annotation concernant la performance du système
 - minimiser la taille du modèle
 - explorer les possibilités du jeu de données
@@ -85,3 +85,26 @@ M. Pellegrini n'étant que peu disponible, il a nommé un AMOA :
 Nous enverrons les courriels aux deux adresses (MOA et AMOA)
 
 ---
+
+## Lundi 21/03 : Revue du livrable n°1
+
+Contact : 12/03
+Horaires : 9:00-9:45
+
+Liste des présents : Jérémie HUTEAU, Quentin MARTY
+
+### Revue du rapport
+  - Etre précis sur les termes : modèles similaires -> prédictions similaires
+  - Expliciter le processus afin de permettre la réplication du travail : train/test split
+  - Présenter les informations pertinentes : nombre d'exemples, historiques d'apprentissage
+  - Conclure sur nos résultats : performances du modèle avec les paramètres choisis 
+  - Objectivité des commentaires : métrique "élevée" ou "faible" est arbitraire
+  - Lister les outils et librairies utilisées
+  - Citer les références utilisés (articles scientifiques, techniques)
+
+### Revue du modèle
+Le client est satisfait du travail réalisé.
+Le référent propose les pistes d'améliorations suivantes :
+  - Ajouter le mois (encodage one-hot) dans le vecteur d'input
+  - Prédire une série temporelle plutôt qu'une seule valeur : TimeDistributed(Dense) ou LSTM(..., return_sequences = True)
+
