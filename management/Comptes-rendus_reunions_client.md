@@ -10,7 +10,7 @@ Pierre est arrivé avec 30 minutes de retard (bouchons).
 ### Objectif du projet :
 
 - prédiction des valeurs futures des capteurs
-- prédiction d'une éventuelle fonction de confort
+- prédiction d'une éventuelle fonction de conforthttps://github.com/pPomCo/DC_GroupeA/pull/6/conflicts
 - prédiction d'annotation concernant la performance du système
 - minimiser la taille du modèle
 - explorer les possibilités du jeu de données
