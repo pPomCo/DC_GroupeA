@@ -121,6 +121,14 @@ Pour chaque produit liste (TD, compte-rendu de rendez-vous) :
 
 ### Recueil des exigences
 
+#### Protocole de recueil des exigences
+
+Les exigences sont identifiées en RDV (RDV client, RDV SQJ en TD, etc.), ou informellement en discutant avec les autres groupes d'étudiants.
+
+Elles sont ensuite validées en réunion, puis ajoutées comme des cartes sur le [Trello](https://trello.com/b/HIFU6ivc/ue-projet)
+
+#### Exigences recueillies
+
 TD / SJQ
 
 1. Les livrables sont déposés sur un dépôt *git* ou *Google drive* dont l'accès est partagé avec Mme Oliveira
@@ -310,6 +318,13 @@ L'application de toutes les exigences doit être validée par consensus pour êt
 Une fois qu'une tâche (représentée par une carte Trello) est placée dans la colonne "A valider", elle est sujette à examen par les autres membres du groupe. En l'absence d'opposition forte, une discussion informelle (en personnes) (ou l'expression d'une approbation sur Trello) permet de confirmer la validité de la tâche.
 En l'absence de validation une fois l'échéance arrivée, la tâche peut tout de même être "finie" si elle est jugée d'une qualité suffisante ("good enough") mais est néanmoins ajoutée aux tâches de l'itération suivante (pour la finir "pour de vrai").
 
+### Suivi des bugs et "issues"
+
+Le produit à réaliser est un rapport de *"recherche"* et ne pourra pas présenter de bugs. 
+
+Les éventuels problèmes (*issues*) sont identifiés en réunion et lors de la revue avec le client.  
+Les solutions sont ensuite trouvées en réunion, et ajoutées comme une carte sur le [Trello](https://trello.com/b/HIFU6ivc/ue-projet)
+
 ### Amélioration continue
 
 Deux stratégies permettent l'amélioration continue, par le contrôle et la gestion du projet :
@@ -337,12 +352,16 @@ Les communications en internes doivent respecter les formats définis ci-après,
 
 Les réponses aux communications seront communiquées au groupe.
 
+La communication avec le SJQ se fera uniquement en TD, sur les horaires prévus pour l'UE. En effet, nous avons un TD chaque semaine, ce qui devrait être suffisant.  
+Nous serons donc tous présents.
+
 ### Exigences des Parties Prenantes et modalités
 
   - MOE : clarté, réactivité (trello, mail, irl)
     - https://trello.com/b/HIFU6ivc/ue-projet
-  - SJQ : accès aux documents de management (drive/git)
+  - SJQ : accès aux documents de management (git et Trello)
     - https://github.com/pPomCo/DC_GroupeA/tree/iter1/management
+    - https://trello.com/b/HIFU6ivc/ue-projet
   - MOA : RAS
     - thomas.pellegrini@irit.fr
   - Enseignants référents
