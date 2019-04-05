@@ -1,0 +1,72 @@
+# Soutenance
+
+Rappel sujet :
+  - NeoCampus, NN, R&D
+  - les groupes avec qui on travaille
+  - présentation du référent
+  - But/Objectif du sujet
+
+Exigences :
+  - Rapport Jupyter
+  - LinReg, RNN/LSTM, CNN
+
+
+
+Protocoles réunion
+Trello
+Git
+
+Communication difficile -> effet tunnel -> on a fait tous ce qu'on pouvait pour faire la methode de migeon tout en sachant que TP n'était pas très dispo -> trouver AMOA, aller le déranger directement à l'irit
+
+ AMOA
+Consensus coute très cher en temps
+
+Adaptation méthode à la R&D difficile
+
+# Démarche Plan Qualité
+## Applicabilité
+
+## Dates
+début et recette
+
+## Rôles
+Jérémie HUTEAU : chef de projet
+
+
+## Livrables
+Rapport de R&D au format article scientifique
+
+## Cycle de dév
+Cycle en W avec itérations (rdv client difficiles)
+
+## Version control
+git : https://github.com/pPomCo/DC_GroupeA/
+Commit tree
+
+## Comm
+Externe : mail + td (m1-m2, oliveira)
+Interne : Trello + irl
+
+## Charges de travail / délais
+c/c des planning pokers
+
+## Planning
+prévision : un livrable/modèle par itération
+réel : un livrable/modele par projet
+
+## Outils / technos
+pandas, sklearn, KERAS, mpl&co
+
+## Architecture
+cf pipeline rapport iaa 
+
+# Conclusion et Perspective
+
+## Conclusion
+pros/cons (gestion?)
+
+## Perspective produit
+Suite du modèle : si avec vecteur capteurs tjrs aussi perf que linReg -> abandon/pas de suite
+
+## Bilan humain
+c'était parfois pénible, mais on a appris et on est meilleur
