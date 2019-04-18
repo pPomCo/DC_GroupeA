@@ -91,11 +91,8 @@ Compte-rendus M. Pellegrini :
 
 Diaporama de soutenance :
 
-- **Le protocole n'est pas élabli**
-
-Fiches d'avancement Interpromo
-
-- **Le protocole n'est pas élabli**
+- Le plan est identifié en réunion
+- Le diaporama est réalisé en ligne en *dynamic(1)*
 
 
 ### Réalisation du contenu
@@ -163,7 +160,7 @@ Diaporama de soutenance
 Fiches d'avancement Interpromo
 
 - Toutes les semaines
-- Document sur *Google Drive* de l'UE **lien ?**
+- Document sur *Google Drive* de l'UE 
 - Par le *chef de projet*
 
 
@@ -232,13 +229,9 @@ TD / SJQ
 
 - Les échéances des livrables sont respectées, **la date du dépôt (git) faisant foi**.
 
-M. Pellegrini
-
-- **à définir**
-
 Soutenance
 
-- **à définir**
+- 19 avril 2019. Point.
 
 Fiches d'avancement Interpromo
 
