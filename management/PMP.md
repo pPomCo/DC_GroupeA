@@ -173,12 +173,12 @@ Format :
 
 ### Stockage du contenu
 
-| Produit                       | Workspace | Final        | Sauvegarde |
-| :---------------------------- | :---------| :----------- | :--------- |
-| Livrables TD                  | Dépôt git | Dépôt git    |            |
-| Livrables M. Pellegrini       | Dépôt git | *aucun*      |            |
-| Diaporama de soutenance       | Dépôt git | *aucun*      |            |
-| Fiche d'avancement Interpromo | *aucun*   | Google Drive |            |
+| Produit                       | Workspace | Final        |
+| :---------------------------- | :---------| :----------- |
+| Livrables TD                  | Dépôt git | Dépôt git    |
+| Livrables M. Pellegrini       | Dépôt git | *aucun*      |
+| Diaporama de soutenance       | Dépôt git | *aucun*      |
+| Fiche d'avancement Interpromo | *aucun*   | Google Drive | 
 
 
 
